@@ -8,7 +8,7 @@
   "scripts": {
     "build": "rimraf ./dist && tsc",
     "prepublishOnly": "npm run build",
-    "test": "mocha --parallel",
+    "test": "node --no-warnings --loader tsx --test test/index.spec.ts",
     "coverage": "c8 -r html npm test",
     "lint": "eslint src/*.ts"
   },
@@ -28,14 +28,10 @@
   "homepage": "https://github.com/dashlog/core#readme",
   "devDependencies": {
     "@nodesecure/eslint-config": "^1.7.0",
-    "@types/chai": "^4.3.4",
-    "@types/mocha": "^10.0.1",
     "@types/node": "^18.15.3",
     "c8": "^7.13.0",
-    "chai": "^4.3.7",
-    "mocha": "^10.2.0",
     "rimraf": "^4.4.0",
-    "ts-node": "^10.9.1"
+    "tsx": "^3.12.5"
   },
   "dependencies": {
     "@dashlog/fetch-github-repositories": "^3.0.2",
