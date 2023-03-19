@@ -1,9 +1,10 @@
 # Core
-![version](https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/dashlog/core/master/package.json&query=$.version&label=Version)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/dashlog/core/commit-activity)
-![MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
-![dep](https://img.shields.io/david/dashlog/core)
-![size](https://img.shields.io/github/languages/code-size/dashlog/core)
+![version](https://img.shields.io/badge/dynamic/json.svg?style=for-the-badge&url=https://raw.githubusercontent.com/dashlog/core/master/package.json&query=$.version&label=Version)
+[![OpenSSF
+Scorecard](https://api.securityscorecards.dev/projects/github.com/dashlog/core/badge?style=for-the-badge)]
+![MIT](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)
+![size](https://img.shields.io/github/languages/code-size/dashlog/core?style=for-the-badge)
+![build](https://img.shields.io/github/actions/workflow/status/dashlog/core/node.js.yml?style=for-the-badge)
 
 Fetch stats and data of Github repositories
 
@@ -18,7 +19,13 @@ $ yarn add @dashlog/core
 ```
 
 ## Usage example
-TBC
+
+```ts
+import { fetchOrgMetadata } from "@dashlog/core";
+
+const { logo, projects } = await fetchOrgMetadata("NodeSecure");
+console.log({ logo, projects });
+```
 
 ## Contributors ✨
 
