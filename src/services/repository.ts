@@ -5,6 +5,7 @@ import path from "node:path";
 import * as httpie from "@myunisoft/httpie";
 import * as Octokit from "@octokit/types";
 import * as Dashlog from "@dashlog/fetch-github-repositories";
+import * as scorecard from "@nodesecure/ossf-scorecard-sdk";
 import { PackageJson } from "@npm/types";
 
 // Import Internal Dependencies
@@ -45,6 +46,7 @@ export interface DashlogRepository {
   dev_dependencies_count: number;
   nodejs_version: string | null;
   default_branch: string;
+  scorecard: scorecard.ScorecardResult | null;
 }
 
 export default class Repository {
@@ -116,12 +118,22 @@ export default class Repository {
     }
   }
 
+  async #fetchOpenSSFScorecard(): Promise<scorecard.ScorecardResult | null> {
+    try {
+      return await scorecard.result(`${this.org.orgName}/${this.repository.name}`);
+    }
+    catch {
+      return null;
+    }
+  }
+
   async information(): Promise<DashlogRepository | null> {
     try {
-      const [metadata, lastCommit, packageJSON] = await Promise.all([
+      const [metadata, lastCommit, packageJSON, scorecard] = await Promise.all([
         this.#fetchAdditionalGithubData(),
         this.#fetchLastGithubCommit(),
-        this.#fetchGithubFile("package.json") as Promise<PackageJson & { type?: "module" | "commonjs" }>
+        this.#fetchGithubFile("package.json") as Promise<PackageJson & { type?: "module" | "commonjs" }>,
+        this.#fetchOpenSSFScorecard()
       ]);
 
       const { pr, issues } = metadata;
@@ -150,7 +162,8 @@ export default class Repository {
         dependencies_count: Object.keys(dependencies).length,
         dev_dependencies_count: Object.keys(devDependencies).length,
         nodejs_version: engines.node || null,
-        default_branch: this.repository.default_branch
+        default_branch: this.repository.default_branch,
+        scorecard
       };
     }
     catch {

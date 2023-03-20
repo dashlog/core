@@ -57,14 +57,9 @@ export default class Github {
     }
 
     const results = await Promise.allSettled(arrOfPromises);
-    const projects = results
+
+    return results
       .filter((promise) => promise.status === "fulfilled" && promise.value !== null)
       .map((promise) => (promise as PromiseFulfilledResult<DashlogRepository>).value);
-
-    // const errors = results.filter((promise) => promise.status === "rejected").map((promise) => promise.reason);
-    // console.log(errors);
-    // console.log(`projects length: ${projects.length}`);
-
-    return projects;
   }
 }
