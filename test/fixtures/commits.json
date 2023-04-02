@@ -1,0 +1,2387 @@
+[
+  {
+    "sha": "314ba361a9e4e8f87182612f9baff6792b253adf",
+    "node_id": "C_kwDOC55o0toAKDMxNGJhMzYxYTllNGU4Zjg3MTgyNjEyZjliYWZmNjc5MmIyNTNhZGY",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2023-04-01T10:34:19Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-04-01T10:34:19Z"
+      },
+      "message": "chore(deps): bump ossf/scorecard-action from 2.1.2 to 2.1.3 (#188)\n\nBumps [ossf/scorecard-action](https://github.com/ossf/scorecard-action) from 2.1.2 to 2.1.3.\r\n- [Release notes](https://github.com/ossf/scorecard-action/releases)\r\n- [Changelog](https://github.com/ossf/scorecard-action/blob/main/RELEASE.md)\r\n- [Commits](https://github.com/ossf/scorecard-action/compare/e38b1902ae4f44df626f11ba0734b14fb91f8f86...80e868c13c90f172d68d1f4501dee99e2479f7af)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: ossf/scorecard-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+      "tree": {
+        "sha": "95aef76c90258e366316735755c626a521aa8584",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/95aef76c90258e366316735755c626a521aa8584"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/314ba361a9e4e8f87182612f9baff6792b253adf",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkKAirCRBK7hj4Ov3rIwAAXX0IAJbFN5i7hjJlVxPV9oC5P48l\nz0eXZXDKHwGxndOwnIHB6TKoyTDiMJiDtgzZY1/GVLTR36acNs1+mCHO9AwSbUOZ\nHrWHT9iZ8o55Hqf9SWobgjSw/e3ziMby6zisUjfDGkNY3ryEhgE7GYSEOiapiHdy\nDLhy9KwbnAXl4hKn0ul2wY6Vr0tn5J74crCP0NwfTk7+CIqHE/7ufFjXbqIYF73r\n9UU9J1cV57vcKOrpVLaLuHhDS7cora27idcD3+u1h58ujWnJIL+DA0+v4LxvBiSB\ncsNnH14+F9RsZaXZNNMvaamH358tzvVp1OdabW9MoxnYBN1cYTO8ZsLa8ISRF+M=\n=Xna1\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 95aef76c90258e366316735755c626a521aa8584\nparent 4e933421cfd9d2438d878b467573172956639791\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1680345259 +0200\ncommitter GitHub <noreply@github.com> 1680345259 +0200\n\nchore(deps): bump ossf/scorecard-action from 2.1.2 to 2.1.3 (#188)\n\nBumps [ossf/scorecard-action](https://github.com/ossf/scorecard-action) from 2.1.2 to 2.1.3.\r\n- [Release notes](https://github.com/ossf/scorecard-action/releases)\r\n- [Changelog](https://github.com/ossf/scorecard-action/blob/main/RELEASE.md)\r\n- [Commits](https://github.com/ossf/scorecard-action/compare/e38b1902ae4f44df626f11ba0734b14fb91f8f86...80e868c13c90f172d68d1f4501dee99e2479f7af)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: ossf/scorecard-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/314ba361a9e4e8f87182612f9baff6792b253adf",
+    "html_url": "https://github.com/NodeSecure/cli/commit/314ba361a9e4e8f87182612f9baff6792b253adf",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/314ba361a9e4e8f87182612f9baff6792b253adf/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4e933421cfd9d2438d878b467573172956639791",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/4e933421cfd9d2438d878b467573172956639791",
+        "html_url": "https://github.com/NodeSecure/cli/commit/4e933421cfd9d2438d878b467573172956639791"
+      }
+    ]
+  },
+  {
+    "sha": "4e933421cfd9d2438d878b467573172956639791",
+    "node_id": "C_kwDOC55o0toAKDRlOTMzNDIxY2ZkOWQyNDM4ZDg3OGI0Njc1NzMxNzI5NTY2Mzk3OTE",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2023-04-01T10:34:03Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-04-01T10:34:03Z"
+      },
+      "message": "chore(deps): bump step-security/harden-runner from 2.2.0 to 2.2.1 (#187)\n\nBumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.2.0 to 2.2.1.\r\n- [Release notes](https://github.com/step-security/harden-runner/releases)\r\n- [Commits](https://github.com/step-security/harden-runner/compare/c8454efe5d0bdefd25384362fe217428ca277d57...1f99358870fe1c846a3ccba386cc2b2246836776)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: step-security/harden-runner\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+      "tree": {
+        "sha": "c4f6eddf91ff9d2b4b7e6061c8139e9f328a75b4",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/c4f6eddf91ff9d2b4b7e6061c8139e9f328a75b4"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/4e933421cfd9d2438d878b467573172956639791",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkKAibCRBK7hj4Ov3rIwAA2iYIADojwugGPQTK11CLK3A+fiFd\nk3UIhDeReyivtEv9pDfoNsb4BrrDVtDTiWNMR9vPwEBNj702VDj7hSPUBN6O8fne\nS14nJVQAxOoMpqCiWLPSzXN6h0yDQ0MMEJ7OqrlchRFECQWgi8jpZQDLHAhasS50\n+lOLSQbQGrnKcdGSz6fXjtAFZPR65qqaNgLFWSNxvSZRScyOgWZ9rQ1YJdBjZHWt\n2t89jNA55JzQEdefR4axCpE/Yc5QxGnY3nbxcEMLagNDLQo0BSBAH4rdVMd1fzZT\n6+Lhm1TFjhN3yZeXFR9U3FZ+nt42KRx5cwleCOcrM/FkliuNTWwbGiM5T6nRUrE=\n=dXgD\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c4f6eddf91ff9d2b4b7e6061c8139e9f328a75b4\nparent 473b42f226b14bff3c38dd07ccb08fcbd6a6f8d3\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1680345243 +0200\ncommitter GitHub <noreply@github.com> 1680345243 +0200\n\nchore(deps): bump step-security/harden-runner from 2.2.0 to 2.2.1 (#187)\n\nBumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.2.0 to 2.2.1.\r\n- [Release notes](https://github.com/step-security/harden-runner/releases)\r\n- [Commits](https://github.com/step-security/harden-runner/compare/c8454efe5d0bdefd25384362fe217428ca277d57...1f99358870fe1c846a3ccba386cc2b2246836776)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: step-security/harden-runner\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/4e933421cfd9d2438d878b467573172956639791",
+    "html_url": "https://github.com/NodeSecure/cli/commit/4e933421cfd9d2438d878b467573172956639791",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/4e933421cfd9d2438d878b467573172956639791/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "473b42f226b14bff3c38dd07ccb08fcbd6a6f8d3",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/473b42f226b14bff3c38dd07ccb08fcbd6a6f8d3",
+        "html_url": "https://github.com/NodeSecure/cli/commit/473b42f226b14bff3c38dd07ccb08fcbd6a6f8d3"
+      }
+    ]
+  },
+  {
+    "sha": "473b42f226b14bff3c38dd07ccb08fcbd6a6f8d3",
+    "node_id": "C_kwDOC55o0toAKDQ3M2I0MmYyMjZiMTRiZmYzYzM4ZGQwN2NjYjA4ZmNiZDZhNmY4ZDM",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2023-04-01T10:33:49Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-04-01T10:33:49Z"
+      },
+      "message": "chore(deps): bump github/codeql-action from 2.2.5 to 2.2.9 (#186)\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 2.2.5 to 2.2.9.\r\n- [Release notes](https://github.com/github/codeql-action/releases)\r\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/github/codeql-action/compare/32dc499307d133bb5085bae78498c0ac2cf762d5...04df1262e6247151b5ac09cd2c303ac36ad3f62b)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github/codeql-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+      "tree": {
+        "sha": "2c4324e4a2cf7cfcfd715056798226dafa9b6070",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/2c4324e4a2cf7cfcfd715056798226dafa9b6070"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/473b42f226b14bff3c38dd07ccb08fcbd6a6f8d3",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkKAiNCRBK7hj4Ov3rIwAAQ3IIAEjGKW6AqCsYPj+XatcUg+Bz\n6QSW0JDnK0mRhdyMAtNtAfbDaMm+S0tkGdVDXklnnw8pQnOcdTeWT1dsnsKgC2iN\n1wwQoqKS5Jofkm3UAMwuSs43UPzFDu18Dc0gFArBcucVO4AEzffSYS2a9MbdPe+D\ncMShpdHaq7UO6TlJ1GJepSBJtOgdChxB0Cg/bchMVvMa2ROr9HBZp7r1lc2nxW00\nPKlueermP0cNlBofMFu6utzd2iSoV6wQM0Xrh3Y1T5bFKUWu36us+bqc7FbXjHxK\nj4WMqMGaBt4XtLs93uQ7NBkpzInN7RekoC+JAvhI5r9S2qDpkunf5cyjVLWVnDQ=\n=vCiB\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 2c4324e4a2cf7cfcfd715056798226dafa9b6070\nparent d5b3f532d8ed695793cf017d60da20bed72ab37a\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1680345229 +0200\ncommitter GitHub <noreply@github.com> 1680345229 +0200\n\nchore(deps): bump github/codeql-action from 2.2.5 to 2.2.9 (#186)\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 2.2.5 to 2.2.9.\r\n- [Release notes](https://github.com/github/codeql-action/releases)\r\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/github/codeql-action/compare/32dc499307d133bb5085bae78498c0ac2cf762d5...04df1262e6247151b5ac09cd2c303ac36ad3f62b)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github/codeql-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/473b42f226b14bff3c38dd07ccb08fcbd6a6f8d3",
+    "html_url": "https://github.com/NodeSecure/cli/commit/473b42f226b14bff3c38dd07ccb08fcbd6a6f8d3",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/473b42f226b14bff3c38dd07ccb08fcbd6a6f8d3/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d5b3f532d8ed695793cf017d60da20bed72ab37a",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/d5b3f532d8ed695793cf017d60da20bed72ab37a",
+        "html_url": "https://github.com/NodeSecure/cli/commit/d5b3f532d8ed695793cf017d60da20bed72ab37a"
+      }
+    ]
+  },
+  {
+    "sha": "d5b3f532d8ed695793cf017d60da20bed72ab37a",
+    "node_id": "C_kwDOC55o0toAKGQ1YjNmNTMyZDhlZDY5NTc5M2NmMDE3ZDYwZGEyMGJlZDcyYWIzN2E",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2023-04-01T10:33:33Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-04-01T10:33:33Z"
+      },
+      "message": "chore(deps): bump actions/checkout from 3.3.0 to 3.5.0 (#185)\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 3.3.0 to 3.5.0.\r\n- [Release notes](https://github.com/actions/checkout/releases)\r\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/actions/checkout/compare/v3.3.0...8f4b7f84864484a7bf31766abe9204da3cbe65b3)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: actions/checkout\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+      "tree": {
+        "sha": "7ba6976bca18b2d05de12c8a76dc9bac4d432767",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/7ba6976bca18b2d05de12c8a76dc9bac4d432767"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/d5b3f532d8ed695793cf017d60da20bed72ab37a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkKAh9CRBK7hj4Ov3rIwAAlEgIAE6nhJrlnJSRiQikDWTp/T03\nYPCELCz++hoQQlg2pwuECgMOGPs+vHontPRMGs0lpNTohAqRKzHiyHPuy5pgF8qg\niSBYww+fng2+HCQlhspTCYNVixOR+lJxDchXSYL+SD/OcDVYPZcRVNyptQQHvfIJ\n/+H1JiDHPrOv/Yff0brXBaRGgVJ3ajDE0c83PjPSmYbvPnHldZfYxyxVIB19ZMjL\n4rYL0gKzI4e93sRp3huul5zdG13Fr61xvMjXuxm3/ajJ0AONdh1bF8qs7HqSDvsn\nZQZIcBCLK4zL37YcQjo36MCS/48bwzP6ECMcpxZoGQmPGnaX6KYyBC2EpNDHpDk=\n=z2Ol\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 7ba6976bca18b2d05de12c8a76dc9bac4d432767\nparent 1d25456ea385112d97af0b7d2974a4e659d9baea\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1680345213 +0200\ncommitter GitHub <noreply@github.com> 1680345213 +0200\n\nchore(deps): bump actions/checkout from 3.3.0 to 3.5.0 (#185)\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 3.3.0 to 3.5.0.\r\n- [Release notes](https://github.com/actions/checkout/releases)\r\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/actions/checkout/compare/v3.3.0...8f4b7f84864484a7bf31766abe9204da3cbe65b3)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: actions/checkout\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/d5b3f532d8ed695793cf017d60da20bed72ab37a",
+    "html_url": "https://github.com/NodeSecure/cli/commit/d5b3f532d8ed695793cf017d60da20bed72ab37a",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/d5b3f532d8ed695793cf017d60da20bed72ab37a/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1d25456ea385112d97af0b7d2974a4e659d9baea",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/1d25456ea385112d97af0b7d2974a4e659d9baea",
+        "html_url": "https://github.com/NodeSecure/cli/commit/1d25456ea385112d97af0b7d2974a4e659d9baea"
+      }
+    ]
+  },
+  {
+    "sha": "1d25456ea385112d97af0b7d2974a4e659d9baea",
+    "node_id": "C_kwDOC55o0toAKDFkMjU0NTZlYTM4NTExMmQ5N2FmMGI3ZDI5NzRhNGU2NTlkOWJhZWE",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2023-03-28T03:27:20Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-03-28T03:27:20Z"
+      },
+      "message": "chore(deps): bump open from 8.4.2 to 9.1.0 (#183)\n\nBumps [open](https://github.com/sindresorhus/open) from 8.4.2 to 9.1.0.\r\n- [Release notes](https://github.com/sindresorhus/open/releases)\r\n- [Commits](https://github.com/sindresorhus/open/compare/v8.4.2...v9.1.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: open\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+      "tree": {
+        "sha": "f5a0cbfe5dcdc4305162a50d1603373489ccbbda",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/f5a0cbfe5dcdc4305162a50d1603373489ccbbda"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/1d25456ea385112d97af0b7d2974a4e659d9baea",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkIl6YCRBK7hj4Ov3rIwAAktYIAKhFRLDjSjWvgy8/GH/PGpKL\nFscH7CeqcoH+pYTSOpKUNZoQI6TJAc3PrTg4mll8n/1ldarX2WaMUer6QDhu3brf\nzFkBlTpgph4TICK5LIZhzNj1Td6BpvQ7fT2lECOZZEYpgPGOc48TUrHqbfiFs8T6\nMJirHVpQpxghYNxelNlLQUQd8oEp48JXRsq2APeMP50wmiJMmbSjv7SKcHdQkFGX\n/yRjH0sHtNJX7Jnoo/Whturk73rM8peD6SNrKkdpr1oUlt7obxBru4PP6hPyKKtA\nxEPjxdZeoyhMb4WtpnVKvzV8c0dp/UQnZ6hnIkxi5gvi1f5C45zZEFzpaX2ohdQ=\n=YKPc\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree f5a0cbfe5dcdc4305162a50d1603373489ccbbda\nparent b5188aae265e68098f34aa81a8b8d931c2120029\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1679974040 +0200\ncommitter GitHub <noreply@github.com> 1679974040 +0200\n\nchore(deps): bump open from 8.4.2 to 9.1.0 (#183)\n\nBumps [open](https://github.com/sindresorhus/open) from 8.4.2 to 9.1.0.\r\n- [Release notes](https://github.com/sindresorhus/open/releases)\r\n- [Commits](https://github.com/sindresorhus/open/compare/v8.4.2...v9.1.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: open\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/1d25456ea385112d97af0b7d2974a4e659d9baea",
+    "html_url": "https://github.com/NodeSecure/cli/commit/1d25456ea385112d97af0b7d2974a4e659d9baea",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/1d25456ea385112d97af0b7d2974a4e659d9baea/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b5188aae265e68098f34aa81a8b8d931c2120029",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/b5188aae265e68098f34aa81a8b8d931c2120029",
+        "html_url": "https://github.com/NodeSecure/cli/commit/b5188aae265e68098f34aa81a8b8d931c2120029"
+      }
+    ]
+  },
+  {
+    "sha": "b5188aae265e68098f34aa81a8b8d931c2120029",
+    "node_id": "C_kwDOC55o0toAKGI1MTg4YWFlMjY1ZTY4MDk4ZjM0YWE4MWE4YjhkOTMxYzIxMjAwMjk",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2023-03-28T03:27:11Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-03-28T03:27:11Z"
+      },
+      "message": "chore(deps): bump ini from 3.0.1 to 4.0.0 (#182)\n\nBumps [ini](https://github.com/npm/ini) from 3.0.1 to 4.0.0.\r\n- [Release notes](https://github.com/npm/ini/releases)\r\n- [Changelog](https://github.com/npm/ini/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/npm/ini/compare/v3.0.1...v4.0.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: ini\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+      "tree": {
+        "sha": "e744d2ea8371d4883280b212bb7dc21bcb9363b2",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/e744d2ea8371d4883280b212bb7dc21bcb9363b2"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/b5188aae265e68098f34aa81a8b8d931c2120029",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkIl6PCRBK7hj4Ov3rIwAAGXgIAF/TZIrGVXaviqmkYQlWMKGu\nQbdyCMvgajIbiIyvPtNSAyxVmBo+OhpqMbfugdTErRiVaMEgpDZ6/rF+g8wd5ktR\nsvAty1klE6JUunZLFXqg1Pri4rbZAQsS8fMXNi1V78XpsYSmtjlt1sTZ2Ns43zV2\nF9qgFdJOZHq+8N6XnfixVrFayMW6cFq2JR7lvk0RkcxHoPVg5Q/boqXirei5AqLF\n+BDg1/1hhKz3HdiKxNER5/ubB27gbw94VnL0QojxG75MnrjJ0dPlAQMdgNYkCJc3\nvKq0nU4AhOss3Tu3r6I+iNrDaNF1XyhFTzW/jelDtHduEFnHmgYq6CEvFqr5WAQ=\n=k+BE\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e744d2ea8371d4883280b212bb7dc21bcb9363b2\nparent c972e5b46712b67bf434b86b0dcab726d095cbba\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1679974031 +0200\ncommitter GitHub <noreply@github.com> 1679974031 +0200\n\nchore(deps): bump ini from 3.0.1 to 4.0.0 (#182)\n\nBumps [ini](https://github.com/npm/ini) from 3.0.1 to 4.0.0.\r\n- [Release notes](https://github.com/npm/ini/releases)\r\n- [Changelog](https://github.com/npm/ini/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/npm/ini/compare/v3.0.1...v4.0.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: ini\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-major\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/b5188aae265e68098f34aa81a8b8d931c2120029",
+    "html_url": "https://github.com/NodeSecure/cli/commit/b5188aae265e68098f34aa81a8b8d931c2120029",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/b5188aae265e68098f34aa81a8b8d931c2120029/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c972e5b46712b67bf434b86b0dcab726d095cbba",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/c972e5b46712b67bf434b86b0dcab726d095cbba",
+        "html_url": "https://github.com/NodeSecure/cli/commit/c972e5b46712b67bf434b86b0dcab726d095cbba"
+      }
+    ]
+  },
+  {
+    "sha": "c972e5b46712b67bf434b86b0dcab726d095cbba",
+    "node_id": "C_kwDOC55o0toAKGM5NzJlNWI0NjcxMmI2N2JmNDM0Yjg2YjBkY2FiNzI2ZDA5NWNiYmE",
+    "commit": {
+      "author": {
+        "name": "Thomas.G",
+        "email": "gentilhomme.thomas@gmail.com",
+        "date": "2023-03-18T18:51:54Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-03-18T18:51:54Z"
+      },
+      "message": "fix(security): add missing workflow top level permissions (#181)",
+      "tree": {
+        "sha": "1e057e530427714005631167fc6ff6e68ec449fc",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/1e057e530427714005631167fc6ff6e68ec449fc"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/c972e5b46712b67bf434b86b0dcab726d095cbba",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkFghKCRBK7hj4Ov3rIwAAMzEIAKWx0Ohho8lE/lJ1xknYuBi7\nYnEtCv9chSp7wQDigtpE+gItosWIS5NZn54JhhlvkypWTbLBC1HyVYAWaXJA6Osi\nVrBQ5buSNQwaSN16xd/iWBGi4ry5iYXRMzrDRo1jse5hviB0UcXfOAZ3BWUUX+Th\nd2pOM1TqD/3Nj4nAQSQVGatOYcla4MNf6XRbZJf0DsbzGY1vgkdDglmAJcoYmQua\nPuoYcpip6zmP02jglFzYItTvBr0pAS0rwD0gUO2ayQHyUW7XiHyg5wu2TWfAQeOe\nP/p8tPgSbjqHyc/2MEovuYtrV7HPYN/W6oiiBZHgmfqkIqF1U+yK8sF2jMKfjlQ=\n=5rlu\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 1e057e530427714005631167fc6ff6e68ec449fc\nparent 6853ab54c19f5ef77a36f11fd36acd4ac8ca3020\nauthor Thomas.G <gentilhomme.thomas@gmail.com> 1679165514 +0100\ncommitter GitHub <noreply@github.com> 1679165514 +0100\n\nfix(security): add missing workflow top level permissions (#181)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/c972e5b46712b67bf434b86b0dcab726d095cbba",
+    "html_url": "https://github.com/NodeSecure/cli/commit/c972e5b46712b67bf434b86b0dcab726d095cbba",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/c972e5b46712b67bf434b86b0dcab726d095cbba/comments",
+    "author": {
+      "login": "fraxken",
+      "id": 4438263,
+      "node_id": "MDQ6VXNlcjQ0MzgyNjM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4438263?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fraxken",
+      "html_url": "https://github.com/fraxken",
+      "followers_url": "https://api.github.com/users/fraxken/followers",
+      "following_url": "https://api.github.com/users/fraxken/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fraxken/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fraxken/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fraxken/subscriptions",
+      "organizations_url": "https://api.github.com/users/fraxken/orgs",
+      "repos_url": "https://api.github.com/users/fraxken/repos",
+      "events_url": "https://api.github.com/users/fraxken/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fraxken/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6853ab54c19f5ef77a36f11fd36acd4ac8ca3020",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/6853ab54c19f5ef77a36f11fd36acd4ac8ca3020",
+        "html_url": "https://github.com/NodeSecure/cli/commit/6853ab54c19f5ef77a36f11fd36acd4ac8ca3020"
+      }
+    ]
+  },
+  {
+    "sha": "6853ab54c19f5ef77a36f11fd36acd4ac8ca3020",
+    "node_id": "C_kwDOC55o0toAKDY4NTNhYjU0YzE5ZjVlZjc3YTM2ZjExZmQzNmFjZDRhYzhjYTMwMjA",
+    "commit": {
+      "author": {
+        "name": "Thomas.G",
+        "email": "gentilhomme.thomas@gmail.com",
+        "date": "2023-03-11T19:01:31Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-03-11T19:01:31Z"
+      },
+      "message": "Merge pull request #178 from NodeSecure/refactor-monorepo\n\nrefactor: transform to NPM monorepo",
+      "tree": {
+        "sha": "cc3c04a6c0535afb4641701b5e99bc3f4f194d9a",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/cc3c04a6c0535afb4641701b5e99bc3f4f194d9a"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/6853ab54c19f5ef77a36f11fd36acd4ac8ca3020",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkDNALCRBK7hj4Ov3rIwAAd3cIAIxOu0qABZ47/TJ4ML75CzPM\nHkAQ6JGkYJ+q9QGNg9X9Ga/zw+NyS9FQ3CDma/5ikN46WvRg32McDvkkFVgcB6yv\njl5/K/BqvTj3xnPdyz05HNC2DFzUqvwp61YVgiKkrCX52wTea7eVUuAaxviNqBwP\nDnDj3BSySRi0f92jZH1FVHnqBUCTPraZ6ylfANYkvv+IGWW1FvAV1A4v+daraiIK\nUvAcCxSIzfksAECpR969uDEZD656Pnydp+xgtOy02LzXCD4xoUjt0xFIR9fVkwAI\nGEFqx2OaAOPwfF3WAhwg+afui5NuIEDShQ889bbtjujttpBqFadMG/TRqDvr0c8=\n=HQOL\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree cc3c04a6c0535afb4641701b5e99bc3f4f194d9a\nparent 4b4e22f959e46714ff26de03731e2b3bf1c8eb4d\nparent d375e54d0a0864f15865a0e70a06b0fc87a482eb\nauthor Thomas.G <gentilhomme.thomas@gmail.com> 1678561291 +0100\ncommitter GitHub <noreply@github.com> 1678561291 +0100\n\nMerge pull request #178 from NodeSecure/refactor-monorepo\n\nrefactor: transform to NPM monorepo"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/6853ab54c19f5ef77a36f11fd36acd4ac8ca3020",
+    "html_url": "https://github.com/NodeSecure/cli/commit/6853ab54c19f5ef77a36f11fd36acd4ac8ca3020",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/6853ab54c19f5ef77a36f11fd36acd4ac8ca3020/comments",
+    "author": {
+      "login": "fraxken",
+      "id": 4438263,
+      "node_id": "MDQ6VXNlcjQ0MzgyNjM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4438263?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fraxken",
+      "html_url": "https://github.com/fraxken",
+      "followers_url": "https://api.github.com/users/fraxken/followers",
+      "following_url": "https://api.github.com/users/fraxken/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fraxken/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fraxken/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fraxken/subscriptions",
+      "organizations_url": "https://api.github.com/users/fraxken/orgs",
+      "repos_url": "https://api.github.com/users/fraxken/repos",
+      "events_url": "https://api.github.com/users/fraxken/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fraxken/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4b4e22f959e46714ff26de03731e2b3bf1c8eb4d",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/4b4e22f959e46714ff26de03731e2b3bf1c8eb4d",
+        "html_url": "https://github.com/NodeSecure/cli/commit/4b4e22f959e46714ff26de03731e2b3bf1c8eb4d"
+      },
+      {
+        "sha": "d375e54d0a0864f15865a0e70a06b0fc87a482eb",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/d375e54d0a0864f15865a0e70a06b0fc87a482eb",
+        "html_url": "https://github.com/NodeSecure/cli/commit/d375e54d0a0864f15865a0e70a06b0fc87a482eb"
+      }
+    ]
+  },
+  {
+    "sha": "d375e54d0a0864f15865a0e70a06b0fc87a482eb",
+    "node_id": "C_kwDOC55o0toAKGQzNzVlNTRkMGEwODY0ZjE1ODY1YTBlNzBhMDZiMGZjODdhNDgyZWI",
+    "commit": {
+      "author": {
+        "name": "GENTILHOMME Thomas",
+        "email": "gentilhomme.thomas@gmail.com",
+        "date": "2023-02-28T19:33:28Z"
+      },
+      "committer": {
+        "name": "GENTILHOMME Thomas",
+        "email": "gentilhomme.thomas@gmail.com",
+        "date": "2023-03-11T18:23:34Z"
+      },
+      "message": "refactor: transform to NPM monorepo",
+      "tree": {
+        "sha": "cc3c04a6c0535afb4641701b5e99bc3f4f194d9a",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/cc3c04a6c0535afb4641701b5e99bc3f4f194d9a"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/d375e54d0a0864f15865a0e70a06b0fc87a482eb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/d375e54d0a0864f15865a0e70a06b0fc87a482eb",
+    "html_url": "https://github.com/NodeSecure/cli/commit/d375e54d0a0864f15865a0e70a06b0fc87a482eb",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/d375e54d0a0864f15865a0e70a06b0fc87a482eb/comments",
+    "author": {
+      "login": "fraxken",
+      "id": 4438263,
+      "node_id": "MDQ6VXNlcjQ0MzgyNjM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4438263?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fraxken",
+      "html_url": "https://github.com/fraxken",
+      "followers_url": "https://api.github.com/users/fraxken/followers",
+      "following_url": "https://api.github.com/users/fraxken/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fraxken/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fraxken/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fraxken/subscriptions",
+      "organizations_url": "https://api.github.com/users/fraxken/orgs",
+      "repos_url": "https://api.github.com/users/fraxken/repos",
+      "events_url": "https://api.github.com/users/fraxken/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fraxken/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "fraxken",
+      "id": 4438263,
+      "node_id": "MDQ6VXNlcjQ0MzgyNjM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4438263?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fraxken",
+      "html_url": "https://github.com/fraxken",
+      "followers_url": "https://api.github.com/users/fraxken/followers",
+      "following_url": "https://api.github.com/users/fraxken/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fraxken/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fraxken/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fraxken/subscriptions",
+      "organizations_url": "https://api.github.com/users/fraxken/orgs",
+      "repos_url": "https://api.github.com/users/fraxken/repos",
+      "events_url": "https://api.github.com/users/fraxken/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fraxken/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4b4e22f959e46714ff26de03731e2b3bf1c8eb4d",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/4b4e22f959e46714ff26de03731e2b3bf1c8eb4d",
+        "html_url": "https://github.com/NodeSecure/cli/commit/4b4e22f959e46714ff26de03731e2b3bf1c8eb4d"
+      }
+    ]
+  },
+  {
+    "sha": "4b4e22f959e46714ff26de03731e2b3bf1c8eb4d",
+    "node_id": "C_kwDOC55o0toAKDRiNGUyMmY5NTllNDY3MTRmZjI2ZGUwMzczMWUyYjNiZjFjOGViNGQ",
+    "commit": {
+      "author": {
+        "name": "Thomas.G",
+        "email": "gentilhomme.thomas@gmail.com",
+        "date": "2023-03-08T11:50:44Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-03-08T11:50:44Z"
+      },
+      "message": "Merge pull request #179 from NodeSecure/bump-i18n\n\nchore: bump i18n",
+      "tree": {
+        "sha": "68721be60fec309b25af48123bce9f68cf0aea5d",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/68721be60fec309b25af48123bce9f68cf0aea5d"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/4b4e22f959e46714ff26de03731e2b3bf1c8eb4d",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkCHaUCRBK7hj4Ov3rIwAAB6EIAKffnwdYALTXpaIkHpLdGXO7\nJOY7edjwyfmaOjzkupKuJNNsvE8ZxxIg6fAkoL3uH6WIyKjf9NeFZ6zd6z0FES+p\nkAu4+Xzh/zx22JpoQGcLjShoHx7UGPtg11aOLKLpZ1lfZwGCNbM1Y2evAOPag8/E\n9enbsUfGiGC85aL6ZEE25Eq9Qne9SiFItJFMRS8qcD6D263uyNGvIjWLLQwg8tpe\nxstC6sgQ+z987bXcAh+TejlZKYSSVzXs+VLVcav4lZdF784CMBMG/nOdLX7gIAgA\nE6VNgnicJ9af7f7iG4q6TF75Z/My1tm5/vtTRV0vUpS4mXwVgHpmqFTBMZ3bbuI=\n=ggPs\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 68721be60fec309b25af48123bce9f68cf0aea5d\nparent f7ceab1320d38cf8c2c93df2d45f961e7a12b80b\nparent d9b6038e6c9a5d397eb21051bada55866a6bbac2\nauthor Thomas.G <gentilhomme.thomas@gmail.com> 1678276244 +0100\ncommitter GitHub <noreply@github.com> 1678276244 +0100\n\nMerge pull request #179 from NodeSecure/bump-i18n\n\nchore: bump i18n"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/4b4e22f959e46714ff26de03731e2b3bf1c8eb4d",
+    "html_url": "https://github.com/NodeSecure/cli/commit/4b4e22f959e46714ff26de03731e2b3bf1c8eb4d",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/4b4e22f959e46714ff26de03731e2b3bf1c8eb4d/comments",
+    "author": {
+      "login": "fraxken",
+      "id": 4438263,
+      "node_id": "MDQ6VXNlcjQ0MzgyNjM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4438263?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fraxken",
+      "html_url": "https://github.com/fraxken",
+      "followers_url": "https://api.github.com/users/fraxken/followers",
+      "following_url": "https://api.github.com/users/fraxken/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fraxken/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fraxken/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fraxken/subscriptions",
+      "organizations_url": "https://api.github.com/users/fraxken/orgs",
+      "repos_url": "https://api.github.com/users/fraxken/repos",
+      "events_url": "https://api.github.com/users/fraxken/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fraxken/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f7ceab1320d38cf8c2c93df2d45f961e7a12b80b",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/f7ceab1320d38cf8c2c93df2d45f961e7a12b80b",
+        "html_url": "https://github.com/NodeSecure/cli/commit/f7ceab1320d38cf8c2c93df2d45f961e7a12b80b"
+      },
+      {
+        "sha": "d9b6038e6c9a5d397eb21051bada55866a6bbac2",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/d9b6038e6c9a5d397eb21051bada55866a6bbac2",
+        "html_url": "https://github.com/NodeSecure/cli/commit/d9b6038e6c9a5d397eb21051bada55866a6bbac2"
+      }
+    ]
+  },
+  {
+    "sha": "d9b6038e6c9a5d397eb21051bada55866a6bbac2",
+    "node_id": "C_kwDOC55o0toAKGQ5YjYwMzhlNmM5YTVkMzk3ZWIyMTA1MWJhZGE1NTg2NmE2YmJhYzI",
+    "commit": {
+      "author": {
+        "name": "PierreDemailly",
+        "email": "pierredemailly.pro@gmail.com",
+        "date": "2023-03-07T18:24:21Z"
+      },
+      "committer": {
+        "name": "PierreDemailly",
+        "email": "pierredemailly.pro@gmail.com",
+        "date": "2023-03-07T18:24:21Z"
+      },
+      "message": "chore: update eslint",
+      "tree": {
+        "sha": "68721be60fec309b25af48123bce9f68cf0aea5d",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/68721be60fec309b25af48123bce9f68cf0aea5d"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/d9b6038e6c9a5d397eb21051bada55866a6bbac2",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/d9b6038e6c9a5d397eb21051bada55866a6bbac2",
+    "html_url": "https://github.com/NodeSecure/cli/commit/d9b6038e6c9a5d397eb21051bada55866a6bbac2",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/d9b6038e6c9a5d397eb21051bada55866a6bbac2/comments",
+    "author": {
+      "login": "PierreDemailly",
+      "id": 39910767,
+      "node_id": "MDQ6VXNlcjM5OTEwNzY3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39910767?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PierreDemailly",
+      "html_url": "https://github.com/PierreDemailly",
+      "followers_url": "https://api.github.com/users/PierreDemailly/followers",
+      "following_url": "https://api.github.com/users/PierreDemailly/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PierreDemailly/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PierreDemailly/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PierreDemailly/subscriptions",
+      "organizations_url": "https://api.github.com/users/PierreDemailly/orgs",
+      "repos_url": "https://api.github.com/users/PierreDemailly/repos",
+      "events_url": "https://api.github.com/users/PierreDemailly/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PierreDemailly/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "PierreDemailly",
+      "id": 39910767,
+      "node_id": "MDQ6VXNlcjM5OTEwNzY3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39910767?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PierreDemailly",
+      "html_url": "https://github.com/PierreDemailly",
+      "followers_url": "https://api.github.com/users/PierreDemailly/followers",
+      "following_url": "https://api.github.com/users/PierreDemailly/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PierreDemailly/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PierreDemailly/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PierreDemailly/subscriptions",
+      "organizations_url": "https://api.github.com/users/PierreDemailly/orgs",
+      "repos_url": "https://api.github.com/users/PierreDemailly/repos",
+      "events_url": "https://api.github.com/users/PierreDemailly/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PierreDemailly/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cb3c5f82a2eb5816a37531ca7e7c420394e61ac8",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/cb3c5f82a2eb5816a37531ca7e7c420394e61ac8",
+        "html_url": "https://github.com/NodeSecure/cli/commit/cb3c5f82a2eb5816a37531ca7e7c420394e61ac8"
+      }
+    ]
+  },
+  {
+    "sha": "cb3c5f82a2eb5816a37531ca7e7c420394e61ac8",
+    "node_id": "C_kwDOC55o0toAKGNiM2M1ZjgyYTJlYjU4MTZhMzc1MzFjYTdlN2M0MjAzOTRlNjFhYzg",
+    "commit": {
+      "author": {
+        "name": "PierreDemailly",
+        "email": "pierredemailly.pro@gmail.com",
+        "date": "2023-03-02T10:53:02Z"
+      },
+      "committer": {
+        "name": "PierreDemailly",
+        "email": "pierredemailly.pro@gmail.com",
+        "date": "2023-03-02T10:53:02Z"
+      },
+      "message": "chore: bump i18n",
+      "tree": {
+        "sha": "1892a5751d3c3754dcbd3fc6fd783cde28d5e5b2",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/1892a5751d3c3754dcbd3fc6fd783cde28d5e5b2"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/cb3c5f82a2eb5816a37531ca7e7c420394e61ac8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/cb3c5f82a2eb5816a37531ca7e7c420394e61ac8",
+    "html_url": "https://github.com/NodeSecure/cli/commit/cb3c5f82a2eb5816a37531ca7e7c420394e61ac8",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/cb3c5f82a2eb5816a37531ca7e7c420394e61ac8/comments",
+    "author": {
+      "login": "PierreDemailly",
+      "id": 39910767,
+      "node_id": "MDQ6VXNlcjM5OTEwNzY3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39910767?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PierreDemailly",
+      "html_url": "https://github.com/PierreDemailly",
+      "followers_url": "https://api.github.com/users/PierreDemailly/followers",
+      "following_url": "https://api.github.com/users/PierreDemailly/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PierreDemailly/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PierreDemailly/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PierreDemailly/subscriptions",
+      "organizations_url": "https://api.github.com/users/PierreDemailly/orgs",
+      "repos_url": "https://api.github.com/users/PierreDemailly/repos",
+      "events_url": "https://api.github.com/users/PierreDemailly/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PierreDemailly/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "PierreDemailly",
+      "id": 39910767,
+      "node_id": "MDQ6VXNlcjM5OTEwNzY3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39910767?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PierreDemailly",
+      "html_url": "https://github.com/PierreDemailly",
+      "followers_url": "https://api.github.com/users/PierreDemailly/followers",
+      "following_url": "https://api.github.com/users/PierreDemailly/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PierreDemailly/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PierreDemailly/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PierreDemailly/subscriptions",
+      "organizations_url": "https://api.github.com/users/PierreDemailly/orgs",
+      "repos_url": "https://api.github.com/users/PierreDemailly/repos",
+      "events_url": "https://api.github.com/users/PierreDemailly/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PierreDemailly/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f7ceab1320d38cf8c2c93df2d45f961e7a12b80b",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/f7ceab1320d38cf8c2c93df2d45f961e7a12b80b",
+        "html_url": "https://github.com/NodeSecure/cli/commit/f7ceab1320d38cf8c2c93df2d45f961e7a12b80b"
+      }
+    ]
+  },
+  {
+    "sha": "f7ceab1320d38cf8c2c93df2d45f961e7a12b80b",
+    "node_id": "C_kwDOC55o0toAKGY3Y2VhYjEzMjBkMzhjZjhjMmM5M2RmMmQ0NWY5NjFlN2ExMmI4MGI",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2023-02-26T17:42:15Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-26T17:42:15Z"
+      },
+      "message": "chore(deps): bump github/codeql-action from 2.2.4 to 2.2.5 (#176)\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 2.2.4 to 2.2.5.\r\n- [Release notes](https://github.com/github/codeql-action/releases)\r\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/github/codeql-action/compare/17573ee1cc1b9d061760f3a006fc4aac4f944fd5...32dc499307d133bb5085bae78498c0ac2cf762d5)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github/codeql-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+      "tree": {
+        "sha": "b2e2369ef17abb2725d5f4076ef5d73e7181ee0b",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/b2e2369ef17abb2725d5f4076ef5d73e7181ee0b"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/f7ceab1320d38cf8c2c93df2d45f961e7a12b80b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj+5n3CRBK7hj4Ov3rIwAA+agIADk7kYIaOqHM3MI+d5X/1lLk\nVPyICCESoUn35juKdIQ3OC9IasXULxR/ygOBmS6WWOklj2FkEu5wiSv4dT5hhddJ\nTYeKPY/B1uS2DpvSvgwux1H8vVZr+Qwu5bNbp+rX0rLrNz95yLKjq4KrdnS5lzA0\nJVam+dnBSfOYjD9nmIeG99atyRvft2p7OY3qlAGUJuBampBRhAwe0JEZaygvHF9O\n+PQpFtXNqBqc5omBKB+RN3rc5kBTNx3qUebofVihL2D/92iH1YoDrts0sc5TdTKL\njIXHaZHkIDFqQikqLUwM7rK0bZtN0v9clkxhFmStmrv/ytd02+Mbg9b5OwtCWX0=\n=5Vv/\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b2e2369ef17abb2725d5f4076ef5d73e7181ee0b\nparent 1706e72b8e065cbb11503f5d64de892320293b49\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1677433335 +0100\ncommitter GitHub <noreply@github.com> 1677433335 +0100\n\nchore(deps): bump github/codeql-action from 2.2.4 to 2.2.5 (#176)\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 2.2.4 to 2.2.5.\r\n- [Release notes](https://github.com/github/codeql-action/releases)\r\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/github/codeql-action/compare/17573ee1cc1b9d061760f3a006fc4aac4f944fd5...32dc499307d133bb5085bae78498c0ac2cf762d5)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github/codeql-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/f7ceab1320d38cf8c2c93df2d45f961e7a12b80b",
+    "html_url": "https://github.com/NodeSecure/cli/commit/f7ceab1320d38cf8c2c93df2d45f961e7a12b80b",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/f7ceab1320d38cf8c2c93df2d45f961e7a12b80b/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1706e72b8e065cbb11503f5d64de892320293b49",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/1706e72b8e065cbb11503f5d64de892320293b49",
+        "html_url": "https://github.com/NodeSecure/cli/commit/1706e72b8e065cbb11503f5d64de892320293b49"
+      }
+    ]
+  },
+  {
+    "sha": "1706e72b8e065cbb11503f5d64de892320293b49",
+    "node_id": "C_kwDOC55o0toAKDE3MDZlNzJiOGUwNjVjYmIxMTUwM2Y1ZDY0ZGU4OTIzMjAyOTNiNDk",
+    "commit": {
+      "author": {
+        "name": "allcontributors[bot]",
+        "email": "46447321+allcontributors[bot]@users.noreply.github.com",
+        "date": "2023-02-26T17:27:12Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-26T17:27:12Z"
+      },
+      "message": "docs: add fabnguess as a contributor for maintenance (#177)\n\n* docs: update README.md [skip ci]\r\n\r\n* docs: update .all-contributorsrc [skip ci]\r\n\r\n---------\r\n\r\nCo-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+      "tree": {
+        "sha": "1eedc8678480e3ac7afa6ab4803d90aaef5b7a5f",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/1eedc8678480e3ac7afa6ab4803d90aaef5b7a5f"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/1706e72b8e065cbb11503f5d64de892320293b49",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj+5ZwCRBK7hj4Ov3rIwAAk1QIAIHcho5RNt0JUl2Gvil68uUA\nF2/xNU0FFdmW7bEc5bj+1QN7ZpIxoiZhaEb4TyjkJSF0vPGyNI9awUaZM6ah8PYJ\nk145dWuRkHz2VBeHx1aJvXyLiL0+igYMV7c28gJlKf4wY+7Cf30y6y6f1ODphpE1\nicHl2tQnALUvanRTY/SEjlyQ4cH6bzCHV3sm8rIlfmgkN+r1i9v3xecaFZyNdeyi\nSCLZGMoTAG48hFdsmSnT6ucl9EXRTgg0DdGmFQN5182+t+7MNj0v0D8IoEGzlObA\nZ/itZUz7mp5Vh5d4ixZWzzzsfypB1AbQLF1RnjWdCb/bX7aKJDcaMfMH/+GisT4=\n=9rzH\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 1eedc8678480e3ac7afa6ab4803d90aaef5b7a5f\nparent 297b7da6bc6a980391fa8e8c5a5af57d1dbbf08f\nauthor allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com> 1677432432 +0100\ncommitter GitHub <noreply@github.com> 1677432432 +0100\n\ndocs: add fabnguess as a contributor for maintenance (#177)\n\n* docs: update README.md [skip ci]\r\n\r\n* docs: update .all-contributorsrc [skip ci]\r\n\r\n---------\r\n\r\nCo-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/1706e72b8e065cbb11503f5d64de892320293b49",
+    "html_url": "https://github.com/NodeSecure/cli/commit/1706e72b8e065cbb11503f5d64de892320293b49",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/1706e72b8e065cbb11503f5d64de892320293b49/comments",
+    "author": {
+      "login": "allcontributors[bot]",
+      "id": 46447321,
+      "node_id": "MDM6Qm90NDY0NDczMjE=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/23186?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/allcontributors%5Bbot%5D",
+      "html_url": "https://github.com/apps/allcontributors",
+      "followers_url": "https://api.github.com/users/allcontributors%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/allcontributors%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/allcontributors%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/allcontributors%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/allcontributors%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/allcontributors%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/allcontributors%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/allcontributors%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/allcontributors%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "297b7da6bc6a980391fa8e8c5a5af57d1dbbf08f",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/297b7da6bc6a980391fa8e8c5a5af57d1dbbf08f",
+        "html_url": "https://github.com/NodeSecure/cli/commit/297b7da6bc6a980391fa8e8c5a5af57d1dbbf08f"
+      }
+    ]
+  },
+  {
+    "sha": "297b7da6bc6a980391fa8e8c5a5af57d1dbbf08f",
+    "node_id": "C_kwDOC55o0toAKDI5N2I3ZGE2YmM2YTk4MDM5MWZhOGU4YzVhNWFmNTdkMWRiYmYwOGY",
+    "commit": {
+      "author": {
+        "name": "Kouadio Fabrice Nguessan",
+        "email": "72697416+fabnguess@users.noreply.github.com",
+        "date": "2023-02-26T17:26:34Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-26T17:26:34Z"
+      },
+      "message": "refactor(dependabot.yml):Update dependabot frequency (#175)",
+      "tree": {
+        "sha": "8615c08380349ce09a4790a0d1c9c60fea70975d",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/8615c08380349ce09a4790a0d1c9c60fea70975d"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/297b7da6bc6a980391fa8e8c5a5af57d1dbbf08f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj+5ZKCRBK7hj4Ov3rIwAACrgIAHS9BhPx34le8rbeiJ0MQskE\niJB4qtMNe4t6mBavsntIPTbVBMF2xIparx/gi8sK/Jl+9agRYyvVCOsEK/xBEnLA\nuZNt89t9/nq1zQJelhdCnKgGc89tY4haNRGsynewuVnYHz/ksf/mcF3DCPIw7cOc\nel+UWiJNyf+eSY+umwgwBkWblmsy/Dtn0avglw0kqxvaVI1uPKuwrZwU5NWklHDX\ngJrw2Y8/ba8hmQ4rz5fNl+OdAy/9uD/tJ/yd48rzLzwdWwGD1sYPKsyCC2SgDGQa\nn43qMEgA6EINez6wEGywxRdhhhX5ax4mCF4QWBDmhhCv0fdtp64xBNSm1plXRfs=\n=g+yo\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 8615c08380349ce09a4790a0d1c9c60fea70975d\nparent 5ebd8dceaaa248dda996cdcf201365b249122d18\nauthor Kouadio Fabrice Nguessan <72697416+fabnguess@users.noreply.github.com> 1677432394 +0000\ncommitter GitHub <noreply@github.com> 1677432394 +0100\n\nrefactor(dependabot.yml):Update dependabot frequency (#175)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/297b7da6bc6a980391fa8e8c5a5af57d1dbbf08f",
+    "html_url": "https://github.com/NodeSecure/cli/commit/297b7da6bc6a980391fa8e8c5a5af57d1dbbf08f",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/297b7da6bc6a980391fa8e8c5a5af57d1dbbf08f/comments",
+    "author": {
+      "login": "fabnguess",
+      "id": 72697416,
+      "node_id": "MDQ6VXNlcjcyNjk3NDE2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72697416?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fabnguess",
+      "html_url": "https://github.com/fabnguess",
+      "followers_url": "https://api.github.com/users/fabnguess/followers",
+      "following_url": "https://api.github.com/users/fabnguess/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fabnguess/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fabnguess/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fabnguess/subscriptions",
+      "organizations_url": "https://api.github.com/users/fabnguess/orgs",
+      "repos_url": "https://api.github.com/users/fabnguess/repos",
+      "events_url": "https://api.github.com/users/fabnguess/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fabnguess/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5ebd8dceaaa248dda996cdcf201365b249122d18",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/5ebd8dceaaa248dda996cdcf201365b249122d18",
+        "html_url": "https://github.com/NodeSecure/cli/commit/5ebd8dceaaa248dda996cdcf201365b249122d18"
+      }
+    ]
+  },
+  {
+    "sha": "5ebd8dceaaa248dda996cdcf201365b249122d18",
+    "node_id": "C_kwDOC55o0toAKDVlYmQ4ZGNlYWFhMjQ4ZGRhOTk2Y2RjZjIwMTM2NWIyNDkxMjJkMTg",
+    "commit": {
+      "author": {
+        "name": "Yefis",
+        "email": "39944043+SofianD@users.noreply.github.com",
+        "date": "2023-02-25T20:35:02Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-25T20:35:02Z"
+      },
+      "message": "fix(package.json): npm scripts using cross-env (#174)",
+      "tree": {
+        "sha": "e654c1156cf24c4f27092b06e2143862ba7d015d",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/e654c1156cf24c4f27092b06e2143862ba7d015d"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/5ebd8dceaaa248dda996cdcf201365b249122d18",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj+nD2CRBK7hj4Ov3rIwAAIwsIAJvxcf7P6nYGLJhsSFYXqaRF\nWimMy75U4+6pr1wRI7HyHjg+3897vA2UrWXuVv3uiey/Xpx+Ce4jCsIqdkiIMN+b\ns/XSHaERc14yNUYosF7o29+5qMkdUnAPCNpHCvdpy2SQ715r0nqE45J7XO1VgoYj\nDYKsqptFxtBAsuU4u2uwkXRaQEqEkDncslrEu/TFpeqwXjFRsMlO95zSjCkwefHf\nH1+Xbj6wiIhP+ns3kKUdTYGCh2aKN3toK5nYJQWm5KClCd5MxPRzWDtx22+DwJJl\n2vQIR9u+3DFvZC19Uk2P1y6snBf49F7eN0KuEZskenQUpOWZrI80wDcnzZDJ1h4=\n=AgII\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e654c1156cf24c4f27092b06e2143862ba7d015d\nparent b6be3736041aa01c6c5242ca2564d2f5ab779c47\nauthor Yefis <39944043+SofianD@users.noreply.github.com> 1677357302 +0100\ncommitter GitHub <noreply@github.com> 1677357302 +0100\n\nfix(package.json): npm scripts using cross-env (#174)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/5ebd8dceaaa248dda996cdcf201365b249122d18",
+    "html_url": "https://github.com/NodeSecure/cli/commit/5ebd8dceaaa248dda996cdcf201365b249122d18",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/5ebd8dceaaa248dda996cdcf201365b249122d18/comments",
+    "author": {
+      "login": "SofianD",
+      "id": 39944043,
+      "node_id": "MDQ6VXNlcjM5OTQ0MDQz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39944043?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SofianD",
+      "html_url": "https://github.com/SofianD",
+      "followers_url": "https://api.github.com/users/SofianD/followers",
+      "following_url": "https://api.github.com/users/SofianD/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SofianD/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SofianD/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SofianD/subscriptions",
+      "organizations_url": "https://api.github.com/users/SofianD/orgs",
+      "repos_url": "https://api.github.com/users/SofianD/repos",
+      "events_url": "https://api.github.com/users/SofianD/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SofianD/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b6be3736041aa01c6c5242ca2564d2f5ab779c47",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/b6be3736041aa01c6c5242ca2564d2f5ab779c47",
+        "html_url": "https://github.com/NodeSecure/cli/commit/b6be3736041aa01c6c5242ca2564d2f5ab779c47"
+      }
+    ]
+  },
+  {
+    "sha": "b6be3736041aa01c6c5242ca2564d2f5ab779c47",
+    "node_id": "C_kwDOC55o0toAKGI2YmUzNzM2MDQxYWEwMWM2YzUyNDJjYTI1NjRkMmY1YWI3NzljNDc",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2023-02-24T17:53:54Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-24T17:53:54Z"
+      },
+      "message": "chore(deps): bump step-security/harden-runner from 2.1.0 to 2.2.0 (#172)\n\nBumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.1.0 to 2.2.0.\r\n- [Release notes](https://github.com/step-security/harden-runner/releases)\r\n- [Commits](https://github.com/step-security/harden-runner/compare/18bf8ad2ca49c14cbb28b91346d626ccfb00c518...c8454efe5d0bdefd25384362fe217428ca277d57)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: step-security/harden-runner\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+      "tree": {
+        "sha": "1934b1eae8940938cf90d14f4072d3db214387e4",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/1934b1eae8940938cf90d14f4072d3db214387e4"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/b6be3736041aa01c6c5242ca2564d2f5ab779c47",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj+PmyCRBK7hj4Ov3rIwAA1KQIAH9Fl0y96dIjaiWS0KTlj2NP\n1FpuwxapD3JrRtS+/Zs8MEVhz+Z2VAojkWFjj0/cYuigQQK04roHbwy2xkmgLPTS\ntP/c65peQeuuB827f6ZjN30z2Erm3rdvfHcBgGI4yriZhaVbbj9zct3mfVkqMChu\ncX4988DfOLOyTHtiQp6vQ52eyR4SiTQ3FNn6s7giC9p4t0RtI4Q7RNnNEWOIrkvV\nhsdpl1dY1s3o9Wdh133qfWLdSiBf7LPjBJbptHW6OOFPvpWFah0gGayrCxh1yqY5\nsoy0bWLGj3XoB1pQM6T2tCEkSWi/jCqxeWe35nI880mRRZ1uIFTpoOxcEVfHWbM=\n=JVxR\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 1934b1eae8940938cf90d14f4072d3db214387e4\nparent f9eaa296b26986b92e89d57bd50a05cbb62e68c4\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1677261234 +0100\ncommitter GitHub <noreply@github.com> 1677261234 +0100\n\nchore(deps): bump step-security/harden-runner from 2.1.0 to 2.2.0 (#172)\n\nBumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.1.0 to 2.2.0.\r\n- [Release notes](https://github.com/step-security/harden-runner/releases)\r\n- [Commits](https://github.com/step-security/harden-runner/compare/18bf8ad2ca49c14cbb28b91346d626ccfb00c518...c8454efe5d0bdefd25384362fe217428ca277d57)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: step-security/harden-runner\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/b6be3736041aa01c6c5242ca2564d2f5ab779c47",
+    "html_url": "https://github.com/NodeSecure/cli/commit/b6be3736041aa01c6c5242ca2564d2f5ab779c47",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/b6be3736041aa01c6c5242ca2564d2f5ab779c47/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f9eaa296b26986b92e89d57bd50a05cbb62e68c4",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/f9eaa296b26986b92e89d57bd50a05cbb62e68c4",
+        "html_url": "https://github.com/NodeSecure/cli/commit/f9eaa296b26986b92e89d57bd50a05cbb62e68c4"
+      }
+    ]
+  },
+  {
+    "sha": "f9eaa296b26986b92e89d57bd50a05cbb62e68c4",
+    "node_id": "C_kwDOC55o0toAKGY5ZWFhMjk2YjI2OTg2YjkyZTg5ZDU3YmQ1MGEwNWNiYjYyZTY4YzQ",
+    "commit": {
+      "author": {
+        "name": "PierreDemailly",
+        "email": "39910767+PierreDemailly@users.noreply.github.com",
+        "date": "2023-02-20T18:40:20Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-20T18:40:20Z"
+      },
+      "message": "feat: 3rd party tools links (Snyk & Socket.dev) (#171)",
+      "tree": {
+        "sha": "e0895e89b7597312c82ec45dc49a775a43bb65cf",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/e0895e89b7597312c82ec45dc49a775a43bb65cf"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/f9eaa296b26986b92e89d57bd50a05cbb62e68c4",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj876UCRBK7hj4Ov3rIwAA3uMIAI1M0J74FbFIHmA8A/2bfFRA\nOkGCLefbsDV9/PL/o0i/Y4tahYo6v6NZnKaSxP8EDTMTebS41vFKuk7uNBQYIqtW\nGoAf7enuXibcrjrYwl3vi9iq4SgeEtOt5+VRI0YNpzJcx3H1CSazWpq1aNEIx4Nd\ntSb+QupWLaeRnADKB/oGQ/lyCJ9J4b4f6pX6HbEVBiOMOrfkDXtHcWKiBwZZ60wT\n1PJzX1w6fRHlsHTetP55FdSujEhECwXR6lfXx3+Ek+DRbEFET2TAwX3KGBLmONqN\n4A6j6xWRMkd4XrKH14acW2m/GDX6b4erv2/XQasG9Wrm8kBT9GKn/8AFvrt+33Q=\n=hcBD\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e0895e89b7597312c82ec45dc49a775a43bb65cf\nparent 662097a26c38f6d9cc3d8b697c6ac39eb8553290\nauthor PierreDemailly <39910767+PierreDemailly@users.noreply.github.com> 1676918420 +0100\ncommitter GitHub <noreply@github.com> 1676918420 +0100\n\nfeat: 3rd party tools links (Snyk & Socket.dev) (#171)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/f9eaa296b26986b92e89d57bd50a05cbb62e68c4",
+    "html_url": "https://github.com/NodeSecure/cli/commit/f9eaa296b26986b92e89d57bd50a05cbb62e68c4",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/f9eaa296b26986b92e89d57bd50a05cbb62e68c4/comments",
+    "author": {
+      "login": "PierreDemailly",
+      "id": 39910767,
+      "node_id": "MDQ6VXNlcjM5OTEwNzY3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39910767?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PierreDemailly",
+      "html_url": "https://github.com/PierreDemailly",
+      "followers_url": "https://api.github.com/users/PierreDemailly/followers",
+      "following_url": "https://api.github.com/users/PierreDemailly/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PierreDemailly/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PierreDemailly/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PierreDemailly/subscriptions",
+      "organizations_url": "https://api.github.com/users/PierreDemailly/orgs",
+      "repos_url": "https://api.github.com/users/PierreDemailly/repos",
+      "events_url": "https://api.github.com/users/PierreDemailly/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PierreDemailly/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "662097a26c38f6d9cc3d8b697c6ac39eb8553290",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/662097a26c38f6d9cc3d8b697c6ac39eb8553290",
+        "html_url": "https://github.com/NodeSecure/cli/commit/662097a26c38f6d9cc3d8b697c6ac39eb8553290"
+      }
+    ]
+  },
+  {
+    "sha": "662097a26c38f6d9cc3d8b697c6ac39eb8553290",
+    "node_id": "C_kwDOC55o0toAKDY2MjA5N2EyNmMzOGY2ZDljYzNkOGI2OTdjNmFjMzllYjg1NTMyOTA",
+    "commit": {
+      "author": {
+        "name": "Vincent Dhennin",
+        "email": "vincent.dhennin7@gmail.com",
+        "date": "2023-02-20T17:54:39Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-20T17:54:39Z"
+      },
+      "message": "Merge pull request #170 from NodeSecure/dependabot/github_actions/github/codeql-action-2.2.4\n\nchore(deps): bump github/codeql-action from 2.2.3 to 2.2.4",
+      "tree": {
+        "sha": "fbb9efc86b7ba909fc3e90d5bc89e70a83729cef",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/fbb9efc86b7ba909fc3e90d5bc89e70a83729cef"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/662097a26c38f6d9cc3d8b697c6ac39eb8553290",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj87PfCRBK7hj4Ov3rIwAAp2oIABnd+qIZ3y3Q2NC1YkJkDorn\nnatzZdE9O3DG3p6lCuN00lefAMo8tpyyLCgcFwLkxnZWLstbVGcdDayO3FfXceXP\n/4PrhPNrPdH+eAfwmTnnyFNajEotPJXZ1efmA8EXXQgUc2eVixWi5s1BVhRzm9jJ\noFsljw0MWfBZf5b6B7+msI3tZUH51Bfdr6fnbGNmpM6gdK2FtSBl8IGaeXNYuRL6\nvjdTie3iylvPgdT3VdpuxQD563IuI+1+Ic746SVn2xKUnf7VN2RK5OkUsgoHIf6F\nsjxnQHytPqr6HdmIPQIFfmXmk98cgqDdtY6zOzUM/J8GX0yKUjOYJnQMLN1KqSE=\n=95hb\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree fbb9efc86b7ba909fc3e90d5bc89e70a83729cef\nparent 84a199679749b74674e8285d431b0681ea56b29e\nparent f13e5ab1a4998c57cdda63e11a769176f25be8a5\nauthor Vincent Dhennin <vincent.dhennin7@gmail.com> 1676915679 +0100\ncommitter GitHub <noreply@github.com> 1676915679 +0100\n\nMerge pull request #170 from NodeSecure/dependabot/github_actions/github/codeql-action-2.2.4\n\nchore(deps): bump github/codeql-action from 2.2.3 to 2.2.4"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/662097a26c38f6d9cc3d8b697c6ac39eb8553290",
+    "html_url": "https://github.com/NodeSecure/cli/commit/662097a26c38f6d9cc3d8b697c6ac39eb8553290",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/662097a26c38f6d9cc3d8b697c6ac39eb8553290/comments",
+    "author": {
+      "login": "Kawacrepe",
+      "id": 40260517,
+      "node_id": "MDQ6VXNlcjQwMjYwNTE3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40260517?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Kawacrepe",
+      "html_url": "https://github.com/Kawacrepe",
+      "followers_url": "https://api.github.com/users/Kawacrepe/followers",
+      "following_url": "https://api.github.com/users/Kawacrepe/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Kawacrepe/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Kawacrepe/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Kawacrepe/subscriptions",
+      "organizations_url": "https://api.github.com/users/Kawacrepe/orgs",
+      "repos_url": "https://api.github.com/users/Kawacrepe/repos",
+      "events_url": "https://api.github.com/users/Kawacrepe/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Kawacrepe/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "84a199679749b74674e8285d431b0681ea56b29e",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/84a199679749b74674e8285d431b0681ea56b29e",
+        "html_url": "https://github.com/NodeSecure/cli/commit/84a199679749b74674e8285d431b0681ea56b29e"
+      },
+      {
+        "sha": "f13e5ab1a4998c57cdda63e11a769176f25be8a5",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/f13e5ab1a4998c57cdda63e11a769176f25be8a5",
+        "html_url": "https://github.com/NodeSecure/cli/commit/f13e5ab1a4998c57cdda63e11a769176f25be8a5"
+      }
+    ]
+  },
+  {
+    "sha": "f13e5ab1a4998c57cdda63e11a769176f25be8a5",
+    "node_id": "C_kwDOC55o0toAKGYxM2U1YWIxYTQ5OThjNTdjZGRhNjNlMTFhNzY5MTc2ZjI1YmU4YTU",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2023-02-13T06:16:44Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-13T06:16:44Z"
+      },
+      "message": "chore(deps): bump github/codeql-action from 2.2.3 to 2.2.4\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 2.2.3 to 2.2.4.\n- [Release notes](https://github.com/github/codeql-action/releases)\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/github/codeql-action/compare/8775e868027fa230df8586bdf502bbd9b618a477...17573ee1cc1b9d061760f3a006fc4aac4f944fd5)\n\n---\nupdated-dependencies:\n- dependency-name: github/codeql-action\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+      "tree": {
+        "sha": "fbb9efc86b7ba909fc3e90d5bc89e70a83729cef",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/fbb9efc86b7ba909fc3e90d5bc89e70a83729cef"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/f13e5ab1a4998c57cdda63e11a769176f25be8a5",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj6dXMCRBK7hj4Ov3rIwAAfdsIACiFS6fq9cmB4IJnQieg/rFE\n0VUM43+h3IiYwN/qcTSZWI9ssnmwoPqfu/ucu1iwLwO18fcQtiwBQpypvuv7Tdw5\nrBZ1mAZn1Z8YinkID6C9OUDyubLV8looQ2zK3t9Eg/ZcVrNR3ok36OSE3++YQ6zB\nWVDxVLuBP7BXAozlKuH6clmBxjCSwsHYIURPEo9n6DH9eLB/pMD2Qdd2L3M12X9Z\nxBX87/24z+cNSoYIJQ6tB/9nwAz9DG0+n00JzOZU89zcpzm/nEyGOKgQiyt7SWYt\npOikfgR+SC/RxsdwQsVrhbh0oLt7sTL76NO/AkeMPkUDFGZS8uEEO+KkKGQ2GlU=\n=hpQ0\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree fbb9efc86b7ba909fc3e90d5bc89e70a83729cef\nparent 84a199679749b74674e8285d431b0681ea56b29e\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1676269004 +0000\ncommitter GitHub <noreply@github.com> 1676269004 +0000\n\nchore(deps): bump github/codeql-action from 2.2.3 to 2.2.4\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 2.2.3 to 2.2.4.\n- [Release notes](https://github.com/github/codeql-action/releases)\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/github/codeql-action/compare/8775e868027fa230df8586bdf502bbd9b618a477...17573ee1cc1b9d061760f3a006fc4aac4f944fd5)\n\n---\nupdated-dependencies:\n- dependency-name: github/codeql-action\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/f13e5ab1a4998c57cdda63e11a769176f25be8a5",
+    "html_url": "https://github.com/NodeSecure/cli/commit/f13e5ab1a4998c57cdda63e11a769176f25be8a5",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/f13e5ab1a4998c57cdda63e11a769176f25be8a5/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "84a199679749b74674e8285d431b0681ea56b29e",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/84a199679749b74674e8285d431b0681ea56b29e",
+        "html_url": "https://github.com/NodeSecure/cli/commit/84a199679749b74674e8285d431b0681ea56b29e"
+      }
+    ]
+  },
+  {
+    "sha": "84a199679749b74674e8285d431b0681ea56b29e",
+    "node_id": "C_kwDOC55o0toAKDg0YTE5OTY3OTc0OWI3NDY3NGU4Mjg1ZDQzMWIwNjgxZWE1NmIyOWU",
+    "commit": {
+      "author": {
+        "name": "allcontributors[bot]",
+        "email": "46447321+allcontributors[bot]@users.noreply.github.com",
+        "date": "2023-02-11T19:59:41Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-11T19:59:41Z"
+      },
+      "message": "docs: add SofianD as a contributor for code (#169)\n\n* docs: update README.md [skip ci]\r\n\r\n* docs: update .all-contributorsrc [skip ci]\r\n\r\n---------\r\n\r\nCo-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>",
+      "tree": {
+        "sha": "b4b13c9e102e89c9ad08a7f26c0002330b6d2c02",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/b4b13c9e102e89c9ad08a7f26c0002330b6d2c02"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/84a199679749b74674e8285d431b0681ea56b29e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj5/OtCRBK7hj4Ov3rIwAAiX4IACMxYQSnwYVzslofPbwLKLvj\n/oX9nSnqnZwFLpV8RG25JQELmULKOttOMGmxf5Bh0IrdLMxNwq9pYWxgd1oJ1uR4\ner9+c/tIpgAjmywudwrSDxRWoHQFuMCr60fwh0ti+Xq6couNuWjpqdgoOisqGFHS\neT/vohNbUXSr/TBoceXXUAkQLb6PgirtCRRSejs4xjUD6UXZuLSKgVxzgi3P0zGB\no80W9s0EJTxZBuCmja59s1YTX40wCJoCl9P0i5UWoUlKEXjm4Mdcl0AeGmwSBRXO\nt8jGM/LjLV2M+nfgZn//D12wU/RtgjGxR9wgDOmIPeTObIC0XMIGWnk4H9o7hMM=\n=JT60\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b4b13c9e102e89c9ad08a7f26c0002330b6d2c02\nparent 53b79e3f60e731e44f19237e39554ea1ab4a8d5e\nauthor allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com> 1676145581 +0100\ncommitter GitHub <noreply@github.com> 1676145581 +0100\n\ndocs: add SofianD as a contributor for code (#169)\n\n* docs: update README.md [skip ci]\r\n\r\n* docs: update .all-contributorsrc [skip ci]\r\n\r\n---------\r\n\r\nCo-authored-by: allcontributors[bot] <46447321+allcontributors[bot]@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/84a199679749b74674e8285d431b0681ea56b29e",
+    "html_url": "https://github.com/NodeSecure/cli/commit/84a199679749b74674e8285d431b0681ea56b29e",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/84a199679749b74674e8285d431b0681ea56b29e/comments",
+    "author": {
+      "login": "allcontributors[bot]",
+      "id": 46447321,
+      "node_id": "MDM6Qm90NDY0NDczMjE=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/23186?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/allcontributors%5Bbot%5D",
+      "html_url": "https://github.com/apps/allcontributors",
+      "followers_url": "https://api.github.com/users/allcontributors%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/allcontributors%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/allcontributors%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/allcontributors%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/allcontributors%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/allcontributors%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/allcontributors%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/allcontributors%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/allcontributors%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "53b79e3f60e731e44f19237e39554ea1ab4a8d5e",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/53b79e3f60e731e44f19237e39554ea1ab4a8d5e",
+        "html_url": "https://github.com/NodeSecure/cli/commit/53b79e3f60e731e44f19237e39554ea1ab4a8d5e"
+      }
+    ]
+  },
+  {
+    "sha": "53b79e3f60e731e44f19237e39554ea1ab4a8d5e",
+    "node_id": "C_kwDOC55o0toAKDUzYjc5ZTNmNjBlNzMxZTQ0ZjE5MjM3ZTM5NTU0ZWExYWI0YThkNWU",
+    "commit": {
+      "author": {
+        "name": "PierreDemailly",
+        "email": "39910767+PierreDemailly@users.noreply.github.com",
+        "date": "2023-02-11T19:58:59Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-11T19:58:59Z"
+      },
+      "message": "feat(cli): add scorecard command (#164)\n\n* wip: scorecard command\r\n\r\nTODO\r\n- command description\r\n- abstract test process\r\n\r\n* test: add tests for verify command\r\n\r\n* style: lint\r\n\r\n* feat(cliCommandRunner): add tool to test cli\r\n\r\nRemove unnecessary files.\r\n\r\n* make test to pass\r\n\r\n* wip\r\n\r\n* add tests\r\n\r\n* feat: add missing translation\r\n\r\n* refactor: rename scorecard cli options api mock\r\n\r\n* fix: remove duplicate test\r\n\r\n* added some suggested changes\r\n\r\n* added some suggested changes\r\n\r\n* refactor(cliCommandRunner): keep function type\r\n\r\n* refactor(utils): remove unnecessary constant\r\n\r\n* fix(cliCommandRunner): handler for the 'message' event\r\n\r\n* add tests from getCurrentRepository function\r\n\r\n* fix test missing mock\r\n\r\n* fix imports\r\n\r\n* fix test\r\n\r\n* add last suggested changes\r\n\r\n* refacto: rework cliCommandRunner to make it usable with summary & verify commands\r\n\r\n* remove unused variable\r\n\r\n* remove unused imports\r\n\r\n* chore: remove split2\r\n\r\n* Removing coverage thresholds and stepping up the game 🔥 #noExcuses #RaisingTheBar 💪\r\n\r\nCo-authored-by: SofianD <doual.sofian@hotmail.com>\r\n\r\n* chore: add test:ci\r\n\r\n* chore: add c8\r\n\r\n* fix: use html reporter\r\n\r\n* fix: httpServer test suit timeout\r\n\r\n* refactor(prepareProcess): use process.argv by default\r\n\r\n* refactor: make child process safe again\r\n\r\n* refactor: getCurrentRepository\r\n\r\n* refactor: scorecard.main\r\n\r\n* refactor(scorecard.spec): add function to mock Node FileSystem module\r\n\r\n* fix test\r\n\r\n* refacto esmock imports\r\n\r\n* revert coverage script\r\n\r\n* add suggested changes\r\n\r\n* bump documentation-ui\r\n\r\n---------\r\n\r\nCo-authored-by: SofianD <doual.sofian@hotmail.com>",
+      "tree": {
+        "sha": "a18e0aab9053858e1f2e8fe9724e7e76bc2111a0",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/a18e0aab9053858e1f2e8fe9724e7e76bc2111a0"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/53b79e3f60e731e44f19237e39554ea1ab4a8d5e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj5/ODCRBK7hj4Ov3rIwAA2D8IAJi7F2XkT4wC6MrUcfioky1Q\ncpVvleL1XWXATWNzRg9G1WeR4AybdBXiF94pSRft/vM2kTLeUZjFFADW1V39B1Zd\nq8htzs/Jx7BevdtNCjAynkOCQ+F8xmo34einbSyTfxij0zKlKNzELakBwoYM791A\nCQ5Y7HVegnB761JENMreLGjepkR5zLhsOGCUEi6ds9xy9kiUfvsBp1rx47DD5Gvk\nqs7BNxVY1t5Uu1WIdcbiaAYqMUd90m69yrOwECYL0pchlPcNFpAn3rOwCRTHjN4W\nSAoVGuLV1t/i8s2l+xRVjQs8W8l9PsZJzgPvboocZJOvZo2CmdLfZJTgyZLm5wM=\n=is3a\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a18e0aab9053858e1f2e8fe9724e7e76bc2111a0\nparent 4d247d7827759d4ac109221a69b89ad77e6845a8\nauthor PierreDemailly <39910767+PierreDemailly@users.noreply.github.com> 1676145539 +0100\ncommitter GitHub <noreply@github.com> 1676145539 +0100\n\nfeat(cli): add scorecard command (#164)\n\n* wip: scorecard command\r\n\r\nTODO\r\n- command description\r\n- abstract test process\r\n\r\n* test: add tests for verify command\r\n\r\n* style: lint\r\n\r\n* feat(cliCommandRunner): add tool to test cli\r\n\r\nRemove unnecessary files.\r\n\r\n* make test to pass\r\n\r\n* wip\r\n\r\n* add tests\r\n\r\n* feat: add missing translation\r\n\r\n* refactor: rename scorecard cli options api mock\r\n\r\n* fix: remove duplicate test\r\n\r\n* added some suggested changes\r\n\r\n* added some suggested changes\r\n\r\n* refactor(cliCommandRunner): keep function type\r\n\r\n* refactor(utils): remove unnecessary constant\r\n\r\n* fix(cliCommandRunner): handler for the 'message' event\r\n\r\n* add tests from getCurrentRepository function\r\n\r\n* fix test missing mock\r\n\r\n* fix imports\r\n\r\n* fix test\r\n\r\n* add last suggested changes\r\n\r\n* refacto: rework cliCommandRunner to make it usable with summary & verify commands\r\n\r\n* remove unused variable\r\n\r\n* remove unused imports\r\n\r\n* chore: remove split2\r\n\r\n* Removing coverage thresholds and stepping up the game 🔥 #noExcuses #RaisingTheBar 💪\r\n\r\nCo-authored-by: SofianD <doual.sofian@hotmail.com>\r\n\r\n* chore: add test:ci\r\n\r\n* chore: add c8\r\n\r\n* fix: use html reporter\r\n\r\n* fix: httpServer test suit timeout\r\n\r\n* refactor(prepareProcess): use process.argv by default\r\n\r\n* refactor: make child process safe again\r\n\r\n* refactor: getCurrentRepository\r\n\r\n* refactor: scorecard.main\r\n\r\n* refactor(scorecard.spec): add function to mock Node FileSystem module\r\n\r\n* fix test\r\n\r\n* refacto esmock imports\r\n\r\n* revert coverage script\r\n\r\n* add suggested changes\r\n\r\n* bump documentation-ui\r\n\r\n---------\r\n\r\nCo-authored-by: SofianD <doual.sofian@hotmail.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/53b79e3f60e731e44f19237e39554ea1ab4a8d5e",
+    "html_url": "https://github.com/NodeSecure/cli/commit/53b79e3f60e731e44f19237e39554ea1ab4a8d5e",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/53b79e3f60e731e44f19237e39554ea1ab4a8d5e/comments",
+    "author": {
+      "login": "PierreDemailly",
+      "id": 39910767,
+      "node_id": "MDQ6VXNlcjM5OTEwNzY3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39910767?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PierreDemailly",
+      "html_url": "https://github.com/PierreDemailly",
+      "followers_url": "https://api.github.com/users/PierreDemailly/followers",
+      "following_url": "https://api.github.com/users/PierreDemailly/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PierreDemailly/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PierreDemailly/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PierreDemailly/subscriptions",
+      "organizations_url": "https://api.github.com/users/PierreDemailly/orgs",
+      "repos_url": "https://api.github.com/users/PierreDemailly/repos",
+      "events_url": "https://api.github.com/users/PierreDemailly/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PierreDemailly/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4d247d7827759d4ac109221a69b89ad77e6845a8",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/4d247d7827759d4ac109221a69b89ad77e6845a8",
+        "html_url": "https://github.com/NodeSecure/cli/commit/4d247d7827759d4ac109221a69b89ad77e6845a8"
+      }
+    ]
+  },
+  {
+    "sha": "4d247d7827759d4ac109221a69b89ad77e6845a8",
+    "node_id": "C_kwDOC55o0toAKDRkMjQ3ZDc4Mjc3NTlkNGFjMTA5MjIxYTY5Yjg5YWQ3N2U2ODQ1YTg",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2023-02-11T14:18:23Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-11T14:18:23Z"
+      },
+      "message": "chore(deps): bump github/codeql-action from 2.2.1 to 2.2.3 (#168)\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 2.2.1 to 2.2.3.\r\n- [Release notes](https://github.com/github/codeql-action/releases)\r\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/github/codeql-action/compare/3ebbd71c74ef574dbc558c82f70e52732c8b44fe...8775e868027fa230df8586bdf502bbd9b618a477)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github/codeql-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+      "tree": {
+        "sha": "3924a5b6a507e66c193e46b5dae499266e753469",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/3924a5b6a507e66c193e46b5dae499266e753469"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/4d247d7827759d4ac109221a69b89ad77e6845a8",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj56OvCRBK7hj4Ov3rIwAAft8IAHxyfRrDNLYgp+ImIvVefTbi\nL2tnMi24rd/D+5vemzxOSwfYL1G96ZJeuwoFYShAZzKxW1vdjnYMVth+GBXIETkz\n+oaCA7gEg6IRs55KYV/I/y3tChHeSzXhn6ZUJ5RyzPbARTfE1TiCLM/T9frv83oA\n0TzwBnrPZ636WI6idq7u8TnAnHVZaUuLo01oHuS2sBCM8fBUJ121Kyf+cf0mIleu\nofluDlZApGpuu3Hcj42yK1f8YmFpzfdkQZDDiKQ3Q+EdFNMKO4QC5dKU8ym2v4+Z\nQ43xjE1W+pHfmdSqSBT24QjFVpqnB6V7yCIpL4wQdRerZOdgP5Kc6kCXD865ksU=\n=3wJY\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 3924a5b6a507e66c193e46b5dae499266e753469\nparent a903635664e3a89cecc76a270d5585fcda982f53\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1676125103 +0100\ncommitter GitHub <noreply@github.com> 1676125103 +0100\n\nchore(deps): bump github/codeql-action from 2.2.1 to 2.2.3 (#168)\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 2.2.1 to 2.2.3.\r\n- [Release notes](https://github.com/github/codeql-action/releases)\r\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/github/codeql-action/compare/3ebbd71c74ef574dbc558c82f70e52732c8b44fe...8775e868027fa230df8586bdf502bbd9b618a477)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github/codeql-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/4d247d7827759d4ac109221a69b89ad77e6845a8",
+    "html_url": "https://github.com/NodeSecure/cli/commit/4d247d7827759d4ac109221a69b89ad77e6845a8",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/4d247d7827759d4ac109221a69b89ad77e6845a8/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a903635664e3a89cecc76a270d5585fcda982f53",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/a903635664e3a89cecc76a270d5585fcda982f53",
+        "html_url": "https://github.com/NodeSecure/cli/commit/a903635664e3a89cecc76a270d5585fcda982f53"
+      }
+    ]
+  },
+  {
+    "sha": "a903635664e3a89cecc76a270d5585fcda982f53",
+    "node_id": "C_kwDOC55o0toAKGE5MDM2MzU2NjRlM2E4OWNlY2M3NmEyNzBkNTU4NWZjZGE5ODJmNTM",
+    "commit": {
+      "author": {
+        "name": "PierreDemailly",
+        "email": "39910767+PierreDemailly@users.noreply.github.com",
+        "date": "2023-02-11T14:18:09Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-11T14:18:09Z"
+      },
+      "message": "fix: searchbar helper redirect to the good section (#166)",
+      "tree": {
+        "sha": "8f57e04c238df3a86b5b289d79942eb403c669c7",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/8f57e04c238df3a86b5b289d79942eb403c669c7"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/a903635664e3a89cecc76a270d5585fcda982f53",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj56OhCRBK7hj4Ov3rIwAAtN8IALGlomei7en9f41p6TS8s47q\nfMn1LvRipbiQ2uywlQYZx/ZU4PE+sV8jmyg0CHsdIaejAoqfsXTPmQB7jiqjPIXG\nqVGV/zrsfHqpCOMrwQYX0Q96enhzJw1VUy1cwB8Q7j+DJ3YB8Vdg+iRCUWH0DnR+\nVMWCgZrogO9BJdqrtkqoeqP/VUmjEk8R4eIQvbYSYp9oE4ZX6RaAOUPSCbJRkkxe\n9mAc1qEBG4knsvHVFPjwF6rdFTB//ZXKuf6qR6z0JUv1t5a80IroHvlE5rXSwpyW\nLfS7Wyi32u08D9xRCm5pHJ2AW4V3FclD00An7JO9X7FZ7/e/+OoBlA0Bcb+8RqU=\n=QfPh\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 8f57e04c238df3a86b5b289d79942eb403c669c7\nparent 170fa74119cf600362dbab310d6effbaaf1a460f\nauthor PierreDemailly <39910767+PierreDemailly@users.noreply.github.com> 1676125089 +0100\ncommitter GitHub <noreply@github.com> 1676125089 +0100\n\nfix: searchbar helper redirect to the good section (#166)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/a903635664e3a89cecc76a270d5585fcda982f53",
+    "html_url": "https://github.com/NodeSecure/cli/commit/a903635664e3a89cecc76a270d5585fcda982f53",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/a903635664e3a89cecc76a270d5585fcda982f53/comments",
+    "author": {
+      "login": "PierreDemailly",
+      "id": 39910767,
+      "node_id": "MDQ6VXNlcjM5OTEwNzY3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39910767?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PierreDemailly",
+      "html_url": "https://github.com/PierreDemailly",
+      "followers_url": "https://api.github.com/users/PierreDemailly/followers",
+      "following_url": "https://api.github.com/users/PierreDemailly/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PierreDemailly/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PierreDemailly/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PierreDemailly/subscriptions",
+      "organizations_url": "https://api.github.com/users/PierreDemailly/orgs",
+      "repos_url": "https://api.github.com/users/PierreDemailly/repos",
+      "events_url": "https://api.github.com/users/PierreDemailly/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PierreDemailly/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "170fa74119cf600362dbab310d6effbaaf1a460f",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/170fa74119cf600362dbab310d6effbaaf1a460f",
+        "html_url": "https://github.com/NodeSecure/cli/commit/170fa74119cf600362dbab310d6effbaaf1a460f"
+      }
+    ]
+  },
+  {
+    "sha": "170fa74119cf600362dbab310d6effbaaf1a460f",
+    "node_id": "C_kwDOC55o0toAKDE3MGZhNzQxMTljZjYwMDM2MmRiYWIzMTBkNmVmZmJhYWYxYTQ2MGY",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2023-02-01T12:42:06Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-02-01T12:42:06Z"
+      },
+      "message": "chore(deps): bump github/codeql-action from 2.2.0 to 2.2.1 (#163)\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 2.2.0 to 2.2.1.\r\n- [Release notes](https://github.com/github/codeql-action/releases)\r\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/github/codeql-action/compare/436dbd9100756e97f42f45da571adeebf8270723...3ebbd71c74ef574dbc558c82f70e52732c8b44fe)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github/codeql-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+      "tree": {
+        "sha": "89c325282cc5f148319acf6261a7a5f971618f1f",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/89c325282cc5f148319acf6261a7a5f971618f1f"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/170fa74119cf600362dbab310d6effbaaf1a460f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj2l4eCRBK7hj4Ov3rIwAAPiMIABkAn8Ykg+6jt+2xoVuGC+WC\n5MMR+WVtfGHAlV5VuvKGIrHarCiZbWGvRrUfDyMC0oMPBkv6bCVbXDNiL68F67ld\njFSrySaDP8b8lSrPj1eBjpSKFAkMPYOypzrD6GXVMa7cgB0lZjfXmsXRZia2pZ/F\nNCHlCAkg19YS691sNWnYjHYAEuIfLcOUL8kqLRGow6Ls7QxyY+PcTwcupU86yuH6\nkFl7ZHa5z2dylaDrH97bbfjlOd+9vn/VVAJ0zLveMuQRn1BAEqZfJEEpD5GvI0JC\nbEuysrgPYDV4ImrXnMIFIXwIrMmyJ+vm9a8OaSrR6SjauEm/S39191Le19qAdFM=\n=JidY\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 89c325282cc5f148319acf6261a7a5f971618f1f\nparent b630182dc01bddbb623a037860586187509b70d9\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1675255326 +0100\ncommitter GitHub <noreply@github.com> 1675255326 +0100\n\nchore(deps): bump github/codeql-action from 2.2.0 to 2.2.1 (#163)\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 2.2.0 to 2.2.1.\r\n- [Release notes](https://github.com/github/codeql-action/releases)\r\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/github/codeql-action/compare/436dbd9100756e97f42f45da571adeebf8270723...3ebbd71c74ef574dbc558c82f70e52732c8b44fe)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github/codeql-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-patch\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/170fa74119cf600362dbab310d6effbaaf1a460f",
+    "html_url": "https://github.com/NodeSecure/cli/commit/170fa74119cf600362dbab310d6effbaaf1a460f",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/170fa74119cf600362dbab310d6effbaaf1a460f/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b630182dc01bddbb623a037860586187509b70d9",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/b630182dc01bddbb623a037860586187509b70d9",
+        "html_url": "https://github.com/NodeSecure/cli/commit/b630182dc01bddbb623a037860586187509b70d9"
+      }
+    ]
+  },
+  {
+    "sha": "b630182dc01bddbb623a037860586187509b70d9",
+    "node_id": "C_kwDOC55o0toAKGI2MzAxODJkYzAxYmRkYmI2MjNhMDM3ODYwNTg2MTg3NTA5YjcwZDk",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2023-01-28T12:09:44Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-01-28T12:09:44Z"
+      },
+      "message": "chore(deps): bump github/codeql-action from 2.1.39 to 2.2.0 (#161)\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 2.1.39 to 2.2.0.\r\n- [Release notes](https://github.com/github/codeql-action/releases)\r\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/github/codeql-action/compare/v2.1.39...436dbd9100756e97f42f45da571adeebf8270723)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github/codeql-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+      "tree": {
+        "sha": "99db5471d693bad50b6032d074d2eb51d5ab447d",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/99db5471d693bad50b6032d074d2eb51d5ab447d"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/b630182dc01bddbb623a037860586187509b70d9",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj1RCICRBK7hj4Ov3rIwAAuKkIAAtPgfeUYzKMYJr0dcwsjIZ5\nSPFkKqbfQbKBFdrcasOgvsJvz5JZ/JcTNKDVqQtQQRTIEnTb7ToPwPTehLfdzFEK\nF0dQj0qUWzslowKnKltjKiqhtqm5kAvGJCVWVZ+RcoW1gpDmywkgvkWxVFmkDlpI\nUaBxqrTqFMiWAcEl+5nTozyjFYDZMUIQJZZMTLyJO/wXhLB4vV7pJ4EqGGsfLvYK\nPnFjfgIaRqrZNsVfVKwz5gBloPs6+yO79E5eeoZPCS0ouWM8iHf2QPSI4WlL+l1Y\nm0pp/uuTcLeMynX6/sBupX8Go8EqA4/FPSwj7OoCugB7MmLfK2ReAlwwMLrbtA0=\n=wKCc\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 99db5471d693bad50b6032d074d2eb51d5ab447d\nparent 55522d5c17479660bcdd7ba3e6c5b113386019af\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1674907784 +0100\ncommitter GitHub <noreply@github.com> 1674907784 +0100\n\nchore(deps): bump github/codeql-action from 2.1.39 to 2.2.0 (#161)\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 2.1.39 to 2.2.0.\r\n- [Release notes](https://github.com/github/codeql-action/releases)\r\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/github/codeql-action/compare/v2.1.39...436dbd9100756e97f42f45da571adeebf8270723)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: github/codeql-action\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/b630182dc01bddbb623a037860586187509b70d9",
+    "html_url": "https://github.com/NodeSecure/cli/commit/b630182dc01bddbb623a037860586187509b70d9",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/b630182dc01bddbb623a037860586187509b70d9/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "55522d5c17479660bcdd7ba3e6c5b113386019af",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/55522d5c17479660bcdd7ba3e6c5b113386019af",
+        "html_url": "https://github.com/NodeSecure/cli/commit/55522d5c17479660bcdd7ba3e6c5b113386019af"
+      }
+    ]
+  },
+  {
+    "sha": "55522d5c17479660bcdd7ba3e6c5b113386019af",
+    "node_id": "C_kwDOC55o0toAKDU1NTIyZDVjMTc0Nzk2NjBiY2RkN2JhM2U2YzViMTEzMzg2MDE5YWY",
+    "commit": {
+      "author": {
+        "name": "Thomas.G",
+        "email": "gentilhomme.thomas@gmail.com",
+        "date": "2023-01-28T12:09:25Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-01-28T12:09:25Z"
+      },
+      "message": "refactor: use latest spinner API and implement --silent mode (#162)",
+      "tree": {
+        "sha": "13ac31c0a9156016d42cc04c43bca630856675d0",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/13ac31c0a9156016d42cc04c43bca630856675d0"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/55522d5c17479660bcdd7ba3e6c5b113386019af",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj1RB1CRBK7hj4Ov3rIwAAEwYIAGZ+3VKzAQxFXzNfzzozkIRx\nTbeGUdhxkWml7g/T6zzjb68WE12aCJ4A1IdPaogE7GVPj4qZTJPLrMGLHY38ILKE\nm6f0Ddiw4pKI/evwXax7QMIUZCkw+m7NulOhSGBExFsBIH/haWyfZfrs6MaBTJyP\nCsgjbPJ3EFOFYNZrX7bwJqqMaNcTXdfdsx2aPdj6kllwm0rzflctMXmgvSH12cth\nrTK8gtzaVSciZofpC1fvxF+kDQbDKk+z1eQ9Vs/ZSRby8JCFTWlW8tTM9twerUyy\nmBeqgl/fx3pB2eEPFnxlLvvhayv0P8uPgMsyO7RddzDRIr/CTkMHMzS6bCQ+QJo=\n=JfZr\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 13ac31c0a9156016d42cc04c43bca630856675d0\nparent 121f39042c4b5e0921e3f95607dd1dd3a64f22f2\nauthor Thomas.G <gentilhomme.thomas@gmail.com> 1674907765 +0100\ncommitter GitHub <noreply@github.com> 1674907765 +0100\n\nrefactor: use latest spinner API and implement --silent mode (#162)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/55522d5c17479660bcdd7ba3e6c5b113386019af",
+    "html_url": "https://github.com/NodeSecure/cli/commit/55522d5c17479660bcdd7ba3e6c5b113386019af",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/55522d5c17479660bcdd7ba3e6c5b113386019af/comments",
+    "author": {
+      "login": "fraxken",
+      "id": 4438263,
+      "node_id": "MDQ6VXNlcjQ0MzgyNjM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4438263?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fraxken",
+      "html_url": "https://github.com/fraxken",
+      "followers_url": "https://api.github.com/users/fraxken/followers",
+      "following_url": "https://api.github.com/users/fraxken/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fraxken/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fraxken/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fraxken/subscriptions",
+      "organizations_url": "https://api.github.com/users/fraxken/orgs",
+      "repos_url": "https://api.github.com/users/fraxken/repos",
+      "events_url": "https://api.github.com/users/fraxken/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fraxken/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "121f39042c4b5e0921e3f95607dd1dd3a64f22f2",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/121f39042c4b5e0921e3f95607dd1dd3a64f22f2",
+        "html_url": "https://github.com/NodeSecure/cli/commit/121f39042c4b5e0921e3f95607dd1dd3a64f22f2"
+      }
+    ]
+  },
+  {
+    "sha": "121f39042c4b5e0921e3f95607dd1dd3a64f22f2",
+    "node_id": "C_kwDOC55o0toAKDEyMWYzOTA0MmM0YjVlMDkyMWUzZjk1NjA3ZGQxZGQzYTY0ZjIyZjI",
+    "commit": {
+      "author": {
+        "name": "Thomas.G",
+        "email": "gentilhomme.thomas@gmail.com",
+        "date": "2023-01-23T20:53:28Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-01-23T20:53:28Z"
+      },
+      "message": "ci: remove lint stage and use coverage npm script (#158)",
+      "tree": {
+        "sha": "df1ca4e7a04fad9135c1a45426ae20033a8a278a",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/df1ca4e7a04fad9135c1a45426ae20033a8a278a"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/121f39042c4b5e0921e3f95607dd1dd3a64f22f2",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjzvPICRBK7hj4Ov3rIwAAcEwIAEUbX1EWDQ96kp1rzvw+SBJE\nfwHWLMWA6X3zjhr2CEkBjTRlNXmnq85td3e5nAUwhD5F47qKcW/SlZ7qjjQgJOxp\nLPKjBZK4Pduzi7YEMADbiv/bUpDvbUgeVV5RqLREYcXbkCyhvx003ntgVW2wRlkR\nvuZy1rOxLjtTURK/BOI2Csfryfz3HpJsQhWmC3cYVnek9aqx54mgV+EZ1DxX2ngL\ndYPH3eBgVqzE+xClUu7F7l53GOAyOJRjPufPKfWO3BdsPyC1Mf9GCQJpqZqHO6WG\naAYPfKsltrXMbosfjaZk0taCbRkQUBySuDqWATA1SVqUh0b6XjJsLKW3iRpeZgM=\n=DSez\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree df1ca4e7a04fad9135c1a45426ae20033a8a278a\nparent b78387b8882f40f81db337c0f9f9e50fcf363b62\nauthor Thomas.G <gentilhomme.thomas@gmail.com> 1674507208 +0100\ncommitter GitHub <noreply@github.com> 1674507208 +0100\n\nci: remove lint stage and use coverage npm script (#158)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/121f39042c4b5e0921e3f95607dd1dd3a64f22f2",
+    "html_url": "https://github.com/NodeSecure/cli/commit/121f39042c4b5e0921e3f95607dd1dd3a64f22f2",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/121f39042c4b5e0921e3f95607dd1dd3a64f22f2/comments",
+    "author": {
+      "login": "fraxken",
+      "id": 4438263,
+      "node_id": "MDQ6VXNlcjQ0MzgyNjM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4438263?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fraxken",
+      "html_url": "https://github.com/fraxken",
+      "followers_url": "https://api.github.com/users/fraxken/followers",
+      "following_url": "https://api.github.com/users/fraxken/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fraxken/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fraxken/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fraxken/subscriptions",
+      "organizations_url": "https://api.github.com/users/fraxken/orgs",
+      "repos_url": "https://api.github.com/users/fraxken/repos",
+      "events_url": "https://api.github.com/users/fraxken/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fraxken/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b78387b8882f40f81db337c0f9f9e50fcf363b62",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/b78387b8882f40f81db337c0f9f9e50fcf363b62",
+        "html_url": "https://github.com/NodeSecure/cli/commit/b78387b8882f40f81db337c0f9f9e50fcf363b62"
+      }
+    ]
+  },
+  {
+    "sha": "b78387b8882f40f81db337c0f9f9e50fcf363b62",
+    "node_id": "C_kwDOC55o0toAKGI3ODM4N2I4ODgyZjQwZjgxZGIzMzdjMGY5ZjllNTBmY2YzNjNiNjI",
+    "commit": {
+      "author": {
+        "name": "Thomas.G",
+        "email": "gentilhomme.thomas@gmail.com",
+        "date": "2023-01-23T20:44:01Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-01-23T20:44:01Z"
+      },
+      "message": "chore: remove permanently package-lock.json (#157)",
+      "tree": {
+        "sha": "76a2db49d1da2c6ea4d023cffa8d580b450719fe",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/76a2db49d1da2c6ea4d023cffa8d580b450719fe"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/b78387b8882f40f81db337c0f9f9e50fcf363b62",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjzvGRCRBK7hj4Ov3rIwAAjWwIAGRnTCrzP4qErM4mPuCWFO8M\nynmMnrvAsXIhS/9yZGVtjf2gT6nqbxnkieAe7pZS0wHtbeHyFIPaIJ7rM14DHTrH\n85god3P5AAW9Ge97yXdW/2gRZov2LpQcblWePyhKzP7jjG31CokXHAegz7DxXN3H\nK1XHYcj53i9X7+W1pnX9rO4iJZPtGLfMcoxfyatBqMqMfANgaCzCinkcRH328hv0\nKymfJS1GU/wslXIFBSSuodu6cRZJ9W682sg/8CzdZ6fa67NwS9Ma+buWe0w+Glv6\nvDKtjdOdvO6Jl/92uuhyoqJga90cIYEMMhGA/2/J2NE3L8qmzxxzNc4l8TqE7mE=\n=kfQR\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 76a2db49d1da2c6ea4d023cffa8d580b450719fe\nparent 2919a13e3105349ec070a8f36d60cdf5787adac9\nauthor Thomas.G <gentilhomme.thomas@gmail.com> 1674506641 +0100\ncommitter GitHub <noreply@github.com> 1674506641 +0100\n\nchore: remove permanently package-lock.json (#157)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/b78387b8882f40f81db337c0f9f9e50fcf363b62",
+    "html_url": "https://github.com/NodeSecure/cli/commit/b78387b8882f40f81db337c0f9f9e50fcf363b62",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/b78387b8882f40f81db337c0f9f9e50fcf363b62/comments",
+    "author": {
+      "login": "fraxken",
+      "id": 4438263,
+      "node_id": "MDQ6VXNlcjQ0MzgyNjM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4438263?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fraxken",
+      "html_url": "https://github.com/fraxken",
+      "followers_url": "https://api.github.com/users/fraxken/followers",
+      "following_url": "https://api.github.com/users/fraxken/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fraxken/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fraxken/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fraxken/subscriptions",
+      "organizations_url": "https://api.github.com/users/fraxken/orgs",
+      "repos_url": "https://api.github.com/users/fraxken/repos",
+      "events_url": "https://api.github.com/users/fraxken/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fraxken/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2919a13e3105349ec070a8f36d60cdf5787adac9",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/2919a13e3105349ec070a8f36d60cdf5787adac9",
+        "html_url": "https://github.com/NodeSecure/cli/commit/2919a13e3105349ec070a8f36d60cdf5787adac9"
+      }
+    ]
+  },
+  {
+    "sha": "2919a13e3105349ec070a8f36d60cdf5787adac9",
+    "node_id": "C_kwDOC55o0toAKDI5MTlhMTNlMzEwNTM0OWVjMDcwYThmMzZkNjBjZGY1Nzg3YWRhYzk",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2023-01-22T13:57:19Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-01-22T13:57:19Z"
+      },
+      "message": "chore(deps-dev): bump @nodesecure/size-satisfies from 1.0.2 to 1.1.0 (#152)\n\nBumps [@nodesecure/size-satisfies](https://github.com/NodeSecure/size-satisfies) from 1.0.2 to 1.1.0.\r\n- [Release notes](https://github.com/NodeSecure/size-satisfies/releases)\r\n- [Commits](https://github.com/NodeSecure/size-satisfies/compare/v1.0.2...v1.1.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: \"@nodesecure/size-satisfies\"\r\n  dependency-type: direct:development\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+      "tree": {
+        "sha": "b3334ecf6a1c2558f10424eae1da22042f1506e9",
+        "url": "https://api.github.com/repos/NodeSecure/cli/git/trees/b3334ecf6a1c2558f10424eae1da22042f1506e9"
+      },
+      "url": "https://api.github.com/repos/NodeSecure/cli/git/commits/2919a13e3105349ec070a8f36d60cdf5787adac9",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjzUC/CRBK7hj4Ov3rIwAA4tEIAJrdLszi9G5aMQQtltUZilRS\n+bZOReqs8wJccwF7z+HxQ80RiYeAd9sj3KIXaDewahdDP/T/9j8FRM80NNrVDkW1\nO1WUgTxYS7rbMJo/85nq7nQhc1FK8V3ejFi57jpqj/vGJKo117GTz3WCx6+pWoeI\nji22zAskMBKOEB1d6UoqrjS8pelELKq7iYr8COlyK5xlpnceu6mzffSxzEZi08T3\nEgjI5rU52mRMBtFWUiEVdSdLBg8+QZHzn8PtfTyWY9VRvmsoPr9hyZCf5PGbFFAX\njd5uR5f9wWOi2L67LfBZ5EBtJrGR07nGV1wPqjWi3DTsyseFOlxThB/uhVqB7AI=\n=UHb4\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b3334ecf6a1c2558f10424eae1da22042f1506e9\nparent 698c972992e5c13c7412b1f419c918a60a5d8344\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1674395839 +0100\ncommitter GitHub <noreply@github.com> 1674395839 +0100\n\nchore(deps-dev): bump @nodesecure/size-satisfies from 1.0.2 to 1.1.0 (#152)\n\nBumps [@nodesecure/size-satisfies](https://github.com/NodeSecure/size-satisfies) from 1.0.2 to 1.1.0.\r\n- [Release notes](https://github.com/NodeSecure/size-satisfies/releases)\r\n- [Commits](https://github.com/NodeSecure/size-satisfies/compare/v1.0.2...v1.1.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: \"@nodesecure/size-satisfies\"\r\n  dependency-type: direct:development\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/NodeSecure/cli/commits/2919a13e3105349ec070a8f36d60cdf5787adac9",
+    "html_url": "https://github.com/NodeSecure/cli/commit/2919a13e3105349ec070a8f36d60cdf5787adac9",
+    "comments_url": "https://api.github.com/repos/NodeSecure/cli/commits/2919a13e3105349ec070a8f36d60cdf5787adac9/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "698c972992e5c13c7412b1f419c918a60a5d8344",
+        "url": "https://api.github.com/repos/NodeSecure/cli/commits/698c972992e5c13c7412b1f419c918a60a5d8344",
+        "html_url": "https://github.com/NodeSecure/cli/commit/698c972992e5c13c7412b1f419c918a60a5d8344"
+      }
+    ]
+  }
+]

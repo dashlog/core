@@ -8,7 +8,7 @@
   "scripts": {
     "build": "rimraf ./dist && tsc",
     "prepublishOnly": "npm run build",
-    "test": "node --no-warnings --loader tsx --test test/index.spec.ts",
+    "test": "node --no-warnings --loader tsx --test test/*.spec.ts",
     "coverage": "c8 -r html npm test",
     "lint": "eslint src/*.ts"
   },
@@ -28,14 +28,14 @@
   "homepage": "https://github.com/dashlog/core#readme",
   "devDependencies": {
     "@nodesecure/eslint-config": "^1.7.0",
-    "@types/node": "^18.15.3",
+    "@types/node": "^18.15.11",
     "c8": "^7.13.0",
-    "rimraf": "^4.4.0",
-    "tsx": "^3.12.5"
+    "rimraf": "^4.4.1",
+    "tsx": "^3.12.6"
   },
   "dependencies": {
     "@dashlog/fetch-github-repositories": "^3.0.2",
-    "@myunisoft/httpie": "^1.10.0",
+    "@myunisoft/httpie": "^1.11.0",
     "@nodesecure/ossf-scorecard-sdk": "^1.1.0",
     "@npm/types": "^1.0.2",
     "@octokit/types": "^9.0.0"

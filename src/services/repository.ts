@@ -1,5 +1,8 @@
 // Import Node.js Dependencies
 import path from "node:path";
+import { exec } from "node:child_process";
+import { promisify } from "node:util";
+import { EOL } from "node:os";
 
 // Import Third-party Dependencies
 import * as httpie from "@myunisoft/httpie";
@@ -13,6 +16,8 @@ import Github from "./github.js";
 import { getCoverageLib, getTestFrameworkName } from "../utils/index.js";
 
 // CONSTANTS
+const kMaxCommitFetch = 60;
+const asyncExec = promisify(exec);
 const kDateFormatter = Intl.DateTimeFormat("en-GB", {
   day: "2-digit",
   month: "short",
@@ -21,7 +26,6 @@ const kDateFormatter = Intl.DateTimeFormat("en-GB", {
   minute: "numeric",
   second: "numeric"
 });
-
 const kPullUrlPostfixLen = "{/number}".length;
 const kCommitUrlPostfixLen = "{/sha}".length;
 
@@ -40,6 +44,8 @@ export interface DashlogRepository {
   size: number;
   stars: number;
   last_commit: any;
+  last_release: string | null;
+  unreleased_commit_count: number | null;
   pull_request: string[];
   issues: string[];
   dependencies_count: number;
@@ -50,16 +56,17 @@ export interface DashlogRepository {
 }
 
 export default class Repository {
-  private org: Github;
-  private repository: Dashlog.Repository;
+  #org: Github;
+  #repository: Dashlog.Repository;
+  #commits: Octokit.Endpoints["GET /repos/{owner}/{repo}/commits"]["response"]["data"];
 
   constructor(org: Github, repository: Dashlog.Repository) {
-    this.org = org;
-    this.repository = repository;
+    this.#org = org;
+    this.#repository = repository;
   }
 
   async #fetchAdditionalGithubData() {
-    const { full_name, pulls_url, issues_url } = this.repository;
+    const { full_name, pulls_url, issues_url } = this.#repository;
 
     // https://api.github.com/repos/NodeSecure/scanner/[pulls || issues]{/number} (example of pulls_url)
     //                                                                  ▲ here we slice this from the URL.
@@ -67,10 +74,10 @@ export default class Repository {
     const issue = issues_url.slice(0, issues_url.length - kPullUrlPostfixLen);
 
     const { data: pulls } = await httpie.get<Octokit.Endpoints["GET /repos/{owner}/{repo}/pulls"]["response"]["data"]>(
-      pull, { headers: this.org.headers }
+      pull, { headers: this.#org.headers }
     );
     const { data: issues } = await httpie.get<Octokit.Endpoints["GET /repos/{owner}/{repo}/issues"]["response"]["data"]>(
-      issue, { headers: this.org.headers }
+      issue, { headers: this.#org.headers }
     );
 
     return {
@@ -85,11 +92,13 @@ export default class Repository {
   }
 
   async #fetchLastGithubCommit() {
-    const uri = this.repository.commits_url.slice(0, this.repository.commits_url.length - kCommitUrlPostfixLen);
+    // eslint-disable-next-line max-len
+    const uri = `${this.#repository.commits_url.slice(0, this.#repository.commits_url.length - kCommitUrlPostfixLen)}?per_page=${kMaxCommitFetch}`;
 
     const { data: commits } = await httpie.get<Octokit.Endpoints["GET /repos/{owner}/{repo}/commits"]["response"]["data"]>(
-      uri, { headers: this.org.headers }
+      uri, { headers: this.#org.headers }
     );
+    this.#commits = commits;
     const lastCommit = commits[0];
 
     return {
@@ -102,9 +111,9 @@ export default class Repository {
     fileName = "package.json"
   ): Promise<any> {
     try {
-      const uri = `https://raw.githubusercontent.com/${this.org.name}/${this.repository.name}/master/${fileName}`;
+      const uri = `https://raw.githubusercontent.com/${this.#org.name}/${this.#repository.name}/master/${fileName}`;
 
-      const { data } = await httpie.get<any>(uri, { headers: this.org.headers });
+      const { data } = await httpie.get<any>(uri, { headers: this.#org.headers });
 
       switch (path.extname(fileName)) {
         case ".json":
@@ -120,11 +129,36 @@ export default class Repository {
 
   async #fetchOpenSSFScorecard(): Promise<scorecard.ScorecardResult | null> {
     try {
-      return await scorecard.result(`${this.org.orgName}/${this.repository.name}`);
+      return await scorecard.result(`${this.#org.orgName}/${this.#repository.name}`);
     }
     catch {
       return null;
     }
+  }
+
+  async #lastRelease(repository: string, version: string): Promise<string | null> {
+    try {
+      const { stdout } = await asyncExec(`npm view ${repository} time'[${version}]'`);
+
+      const date = new Date(stdout.split(EOL)[0].trim());
+
+      return kDateFormatter.format(date);
+    }
+    catch {
+      return null;
+    }
+  }
+
+  #unreleasedCommits(lastRelease: string | null) {
+    if (lastRelease === null) {
+      return null;
+    }
+
+    return this.#commits.filter((commit: any) => {
+      const commitDate = kDateFormatter.format(new Date(commit.commit.author.date));
+
+      return new Date(commitDate).getTime() > new Date(lastRelease).getTime();
+    }).length;
   }
 
   async information(): Promise<DashlogRepository | null> {
@@ -142,27 +176,31 @@ export default class Repository {
       } = packageJSON;
       lastCommit.date = kDateFormatter.format(new Date(lastCommit.date));
 
+      const lastRelease = await this.#lastRelease(name ?? "", version);
+
       return {
-        name: this.repository.name,
+        name: this.#repository.name,
         package_name: name,
-        private: this.repository.private,
+        private: this.#repository.private,
         version,
         is_module: type === "module",
-        url: this.repository.html_url,
-        license: (this.repository.license || {}).name || "N/A",
-        fork: this.repository.fork,
-        fork_count: this.repository.forks_count,
+        url: this.#repository.html_url,
+        license: (this.#repository.license || {}).name || "N/A",
+        fork: this.#repository.fork,
+        fork_count: this.#repository.forks_count,
         test_framework: getTestFrameworkName(devDependencies),
         coverage_lib: getCoverageLib(devDependencies),
-        size: this.repository.size,
-        stars: this.repository.stargazers_count,
+        size: this.#repository.size,
+        stars: this.#repository.stargazers_count,
         last_commit: lastCommit,
+        last_release: lastRelease,
+        unreleased_commit_count: this.#unreleasedCommits(lastRelease),
         pull_request: pr,
         issues,
         dependencies_count: Object.keys(dependencies).length,
         dev_dependencies_count: Object.keys(devDependencies).length,
         nodejs_version: engines.node || null,
-        default_branch: this.repository.default_branch,
+        default_branch: this.#repository.default_branch,
         scorecard
       };
     }
