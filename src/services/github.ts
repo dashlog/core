@@ -1,6 +1,3 @@
-import dotenv from "dotenv";
-dotenv.config();
-
 // Import Third-party Dependencies
 import * as httpie from "@myunisoft/httpie";
 import * as Octokit from "@octokit/types";

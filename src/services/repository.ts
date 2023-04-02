@@ -1,14 +1,12 @@
 // Import Node.js Dependencies
 import path from "node:path";
-import { exec } from "node:child_process";
-import { promisify } from "node:util";
-import { EOL } from "node:os";
 
 // Import Third-party Dependencies
 import * as httpie from "@myunisoft/httpie";
 import * as Octokit from "@octokit/types";
 import * as Dashlog from "@dashlog/fetch-github-repositories";
 import * as scorecard from "@nodesecure/ossf-scorecard-sdk";
+import { packument } from "@nodesecure/npm-registry-sdk";
 import { PackageJson } from "@npm/types";
 
 // Import Internal Dependencies
@@ -17,7 +15,6 @@ import { getCoverageLib, getTestFrameworkName } from "../utils/index.js";
 
 // CONSTANTS
 const kMaxCommitFetch = 60;
-const asyncExec = promisify(exec);
 const kDateFormatter = Intl.DateTimeFormat("en-GB", {
   day: "2-digit",
   month: "short",
@@ -137,16 +134,11 @@ export default class Repository {
   }
 
   async #lastRelease(repository: string, version: string): Promise<string | null> {
-    try {
-      const { stdout } = await asyncExec(`npm view ${repository} time'[${version}]'`);
+    const pkg = await packument(repository);
+    const lastRelease = pkg.time[version];
+    const date = new Date(lastRelease);
 
-      const date = new Date(stdout.split(EOL)[0].trim());
-
-      return kDateFormatter.format(date);
-    }
-    catch {
-      return null;
-    }
+    return kDateFormatter.format(date);
   }
 
   #unreleasedCommits(lastRelease: string | null) {
