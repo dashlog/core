@@ -18,7 +18,7 @@ const commits = JSON.parse(fs.readFileSync("./test/fixtures/commits.json", "utf-
 const packageJson = JSON.parse(fs.readFileSync("./test/fixtures/package.json", "utf-8"));
 const repositoryNames = repositories.map((repo) => repo.name);
 
-describe('Github', async () => {
+describe("Github", async() => {
   const mockAgent = new MockAgent();
 
   before(() => {
@@ -45,23 +45,23 @@ describe('Github', async () => {
       }).persist();
     }
 
-    const rawPool = mockAgent.get("https://raw.githubusercontent.com")
+    const rawPool = mockAgent.get("https://raw.githubusercontent.com");
     rawPool.intercept({
-      path: /\/.*/,
+      path: /\/.*/
     }).reply(200, packageJson).persist();
   });
 
-  after(async () => {
+  after(async() => {
     await mockAgent.close();
-  })
+  });
 
-  test("Github.information()", async () => {
+  test("Github.information()", async() => {
     const github = new Github("NodeSecure");
     const data = await github.information();
     assert.deepEqual(data, nsGithubOrg);
   });
 
-  it("Github.fetchRepositories()", async () => {
+  it("Github.fetchRepositories()", async() => {
     const github = new Github("NodeSecure");
     const data = await github.fetchRepositories();
     const noArchivedOrDisabled = repositories.filter((repo) => !repo.archived && !repo.disabled);
@@ -71,11 +71,11 @@ describe('Github', async () => {
     }
   });
 
-  it('@nodesecure/cli should have 30 unreleaded commit from 09 Nov 2022 ', async () => {
+  it("@nodesecure/cli should have 30 unreleased commit from 09 Nov 2022", async() => {
     const github = new Github("NodeSecure");
     const data = await github.fetchRepositories();
     const cli = data.find((repo) => repo.name === "cli")!;
     assert.equal(cli.unreleased_commit_count, 30);
-    assert.equal(cli.last_release, '09 Nov 2022, 01:27:09');
-  })
+    assert.equal(cli.last_release, "09 Nov 2022, 01:27:09");
+  });
 });
