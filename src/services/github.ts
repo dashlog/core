@@ -60,6 +60,6 @@ export default class Github {
 
     return results
       .filter((promise) => promise.status === "fulfilled" && promise.value !== null)
-      .map((promise) => (promise as PromiseFulfilledResult<DashlogRepository>).value);
+      .map((promise: PromiseFulfilledResult<DashlogRepository>) => promise.value);
   }
 }
