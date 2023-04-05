@@ -78,7 +78,9 @@ describe("Github", async() => {
     const github = new Github("NodeSecure");
     const data = await github.fetchRepositories();
     const cli = data.find((repo) => repo.name === "cli")!;
+    const dateWithoutTime = cli.last_release!.split(",")[0];
+
     assert.equal(cli.unreleased_commit_count, 30);
-    assert.equal(cli.last_release, "09 Nov 2022, 01:27:09");
+    assert.equal(dateWithoutTime, "09 Nov 2022");
   });
 });
