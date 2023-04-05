@@ -1,5 +1,5 @@
 // Import Node.js Dependencies
-import { test, before, after, describe, it } from "node:test";
+import { test, after, describe, it } from "node:test";
 import assert from "node:assert";
 import fs from "node:fs";
 
@@ -21,35 +21,38 @@ const repositoryNames = repositories.map((repo) => repo.name);
 describe("Github", async() => {
   const mockAgent = new MockAgent();
 
-  before(() => {
-    mockAgent.disableNetConnect();
-    setGlobalDispatcher(mockAgent);
+  // TODO: Node 18 LTS (18.15.0) will run tests suites BEFORE the before() hook
+  // It is fixed in v19 (tested with 19.8.1)
+  // Wrap this is in before() hook when fixed in v18.
+  mockAgent.disableNetConnect();
 
-    const mockPool = mockAgent.get("https://api.github.com");
-    mockPool.intercept({ path: "/orgs/NodeSecure" }).reply(200, nsGithubOrg, {
+  const mockPool = mockAgent.get("https://api.github.com");
+  mockPool.intercept({ path: "/orgs/NodeSecure" }).reply(200, nsGithubOrg, {
+    headers: { "Content-Type": "application/json" }
+  }).persist();
+  mockPool.intercept({ path: "/orgs/NodeSecure/repos" }).reply(200, repositories, {
+    headers: { "Content-Type": "application/json" }
+  }).persist();
+
+  for (const repo of repositoryNames) {
+    mockPool.intercept({ path: `/repos/NodeSecure/${repo}/pulls` }).reply(200, pulls, {
       headers: { "Content-Type": "application/json" }
     }).persist();
-    mockPool.intercept({ path: "/orgs/NodeSecure/repos" }).reply(200, repositories, {
+    mockPool.intercept({ path: `/repos/NodeSecure/${repo}/issues` }).reply(200, issues, {
       headers: { "Content-Type": "application/json" }
     }).persist();
+    mockPool.intercept({ path: `/repos/NodeSecure/${repo}/commits?per_page=${kMaxCommitFetch}` }).reply(200, commits, {
+      headers: { "Content-Type": "application/json" }
+    }).persist();
+  }
 
-    for (const repo of repositoryNames) {
-      mockPool.intercept({ path: `/repos/NodeSecure/${repo}/pulls` }).reply(200, pulls, {
-        headers: { "Content-Type": "application/json" }
-      }).persist();
-      mockPool.intercept({ path: `/repos/NodeSecure/${repo}/issues` }).reply(200, issues, {
-        headers: { "Content-Type": "application/json" }
-      }).persist();
-      mockPool.intercept({ path: `/repos/NodeSecure/${repo}/commits?per_page=${kMaxCommitFetch}` }).reply(200, commits, {
-        headers: { "Content-Type": "application/json" }
-      }).persist();
-    }
+  const rawPool = mockAgent.get("https://raw.githubusercontent.com");
+  rawPool.intercept({
+    path: /\/.*/
+  }).reply(200, packageJson).persist();
 
-    const rawPool = mockAgent.get("https://raw.githubusercontent.com");
-    rawPool.intercept({
-      path: /\/.*/
-    }).reply(200, packageJson).persist();
-  });
+  setGlobalDispatcher(mockAgent);
+  // End of before() hook
 
   after(async() => {
     await mockAgent.close();
