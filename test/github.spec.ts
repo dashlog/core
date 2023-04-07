@@ -57,6 +57,36 @@ describe("Github", async() => {
   after(async() => {
     await mockAgent.close();
   });
+  test("should throw an error if the GITHUB_TOKEN environment variable is not defined", async() => {
+    const token = process.env.GITHUB_TOKEN;
+
+    process.env.GITHUB_TOKEN = "";
+
+    try {
+      assert.rejects(
+        async() => new Github("NodeSecure"),
+        {
+          name: "Error",
+          message: "Unauthorized"
+        }
+
+      );
+    }
+    finally {
+      process.env.GITHUB_TOKEN = token;
+    }
+  });
+
+  test("should generate an error when creating a Github instance with an invalid organization name", async() => {
+    assert.rejects(
+      async() => new Github("foobar"),
+      {
+        name: "Error",
+        message: "Not Found"
+      }
+
+    );
+  });
 
   test("Github.information()", async() => {
     const github = new Github("NodeSecure");
