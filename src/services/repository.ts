@@ -49,7 +49,9 @@ export interface DashlogRepository {
   dev_dependencies_count: number;
   nodejs_version: string | null;
   default_branch: string;
-  scorecard: scorecard.ScorecardResult | null;
+  plugins: {
+    scorecard?: scorecard.ScorecardResult | null;
+  }
 }
 
 export default class Repository {
@@ -124,15 +126,6 @@ export default class Repository {
     }
   }
 
-  async #fetchOpenSSFScorecard(): Promise<scorecard.ScorecardResult | null> {
-    try {
-      return await scorecard.result(`${this.#org.orgName}/${this.#repository.name}`);
-    }
-    catch {
-      return null;
-    }
-  }
-
   async #lastRelease(repository: string, version: string): Promise<string | null> {
     const pkg = await packument(repository);
     const lastRelease = pkg.time[version];
@@ -155,11 +148,10 @@ export default class Repository {
 
   async information(): Promise<DashlogRepository | null> {
     try {
-      const [metadata, lastCommit, packageJSON, scorecard] = await Promise.all([
+      const [metadata, lastCommit, packageJSON] = await Promise.all([
         this.#fetchAdditionalGithubData(),
         this.#fetchLastGithubCommit(),
-        this.#fetchGithubFile("package.json") as Promise<PackageJson & { type?: "module" | "commonjs" }>,
-        this.#fetchOpenSSFScorecard()
+        this.#fetchGithubFile("package.json") as Promise<PackageJson & { type?: "module" | "commonjs" }>
       ]);
 
       const { pr, issues } = metadata;
@@ -193,7 +185,7 @@ export default class Repository {
         dev_dependencies_count: Object.keys(devDependencies).length,
         nodejs_version: engines.node || null,
         default_branch: this.#repository.default_branch,
-        scorecard
+        plugins: {}
       };
     }
     catch {
