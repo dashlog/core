@@ -5,7 +5,6 @@ import path from "node:path";
 import * as httpie from "@myunisoft/httpie";
 import * as Octokit from "@octokit/types";
 import * as Dashlog from "@dashlog/fetch-github-repositories";
-import * as scorecard from "@nodesecure/ossf-scorecard-sdk";
 import { packument } from "@nodesecure/npm-registry-sdk";
 import { PackageJson } from "@npm/types";
 
@@ -26,7 +25,7 @@ const kDateFormatter = Intl.DateTimeFormat("en-GB", {
 const kPullUrlPostfixLen = "{/number}".length;
 const kCommitUrlPostfixLen = "{/sha}".length;
 
-export interface DashlogRepository {
+export interface DashlogRepository<PluginsGeneric extends object = any> {
   name: string;
   package_name: string | null;
   private: boolean;
@@ -49,9 +48,7 @@ export interface DashlogRepository {
   dev_dependencies_count: number;
   nodejs_version: string | null;
   default_branch: string;
-  plugins: {
-    scorecard?: scorecard.ScorecardResult | null;
-  }
+  plugins: PluginsGeneric;
 }
 
 export default class Repository {
