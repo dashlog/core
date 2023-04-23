@@ -2,6 +2,7 @@
   "compilerOptions": {
     "declaration": true,
     "strictNullChecks": true,
+    "skipLibCheck": true,
     "target": "ES2020",
     "outDir": "dist",
     "module": "ES2020",
