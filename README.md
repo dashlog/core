@@ -27,6 +27,23 @@ const { logo, projects } = await fetchOrgMetadata("NodeSecure");
 console.log({ logo, projects });
 ```
 
+### Available plugins
+
+- <kbd>scorecard</kbd> for OSSF Scorecard
+- <kbd>nodesecure</kbd> to include NodeSecure scanner `verify` method.
+
+Plugins need to be requested while fetching organization metadata:
+```js
+const { projects } = await fetchOrgMetadata("NodeSecure", {
+  plugins: ["scorecard", "nodesecure"]
+});
+
+for (const { plugins } of projects) {
+  console.log(plugins.scorecard);
+  console.log(plugins.nodesecure);
+}
+```
+
 ## Contributors ✨
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
