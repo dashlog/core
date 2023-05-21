@@ -28,19 +28,19 @@
   "homepage": "https://github.com/dashlog/core#readme",
   "devDependencies": {
     "@nodesecure/eslint-config": "^1.7.0",
-    "@types/node": "^18.15.11",
+    "@types/node": "^20.2.1",
     "c8": "^7.13.0",
-    "rimraf": "^5.0.0",
-    "tsx": "^3.12.6"
+    "rimraf": "^5.0.1",
+    "tsx": "^3.12.7"
   },
   "dependencies": {
     "@dashlog/fetch-github-repositories": "^3.0.2",
     "@myunisoft/httpie": "^1.11.0",
     "@nodesecure/npm-registry-sdk": "^1.5.2",
-    "@nodesecure/ossf-scorecard-sdk": "^1.1.0",
+    "@nodesecure/ossf-scorecard-sdk": "^1.1.1",
     "@nodesecure/scanner": "^4.0.0",
     "@npm/types": "^1.0.2",
-    "@octokit/types": "^9.0.0",
+    "@octokit/types": "^9.2.3",
     "@openally/mutex": "^1.0.0"
   }
 }
