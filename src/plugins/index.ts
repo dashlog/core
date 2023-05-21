@@ -1,2 +1,2 @@
-export * as scorecard from "./scorecard";
-export * as nodesecure from "./nodesecure";
+export * as scorecard from "./scorecard.js";
+export * as nodesecure from "./nodesecure.js";
