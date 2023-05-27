@@ -124,11 +124,16 @@ export default class Repository {
   }
 
   async #lastRelease(repository: string, version: string): Promise<string | null> {
-    const pkg = await packument(repository);
-    const lastRelease = pkg.time[version];
-    const date = new Date(lastRelease);
+    try {
+      const pkg = await packument(repository);
+      const lastRelease = pkg.time[version];
+      const date = new Date(lastRelease);
 
-    return kDateFormatter.format(date);
+      return kDateFormatter.format(date);
+    }
+    catch {
+      return null;
+    }
   }
 
   #unreleasedCommits(lastRelease: string | null) {
