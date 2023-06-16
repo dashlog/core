@@ -9,7 +9,7 @@
     "build": "rimraf ./dist && tsc",
     "prepublishOnly": "npm run build",
     "test": "node --no-warnings --loader tsx --test test/*.spec.ts",
-    "coverage": "c8 -r html npm test",
+    "coverage": "c8 --all -r html npm test",
     "lint": "eslint src/*.ts test/*.ts"
   },
   "repository": {
