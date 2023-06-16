@@ -1,7 +1,7 @@
 # Core
 ![version](https://img.shields.io/badge/dynamic/json.svg?style=for-the-badge&url=https://raw.githubusercontent.com/dashlog/core/master/package.json&query=$.version&label=Version)
 [![OpenSSF
-Scorecard](https://api.securityscorecards.dev/projects/github.com/dashlog/core/badge?style=for-the-badge)]
+Scorecard](https://api.securityscorecards.dev/projects/github.com/dashlog/core/badge?style=for-the-badge)](https://api.securityscorecards.dev/projects/github.com/dashlog/core)
 ![MIT](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)
 ![size](https://img.shields.io/github/languages/code-size/dashlog/core?style=for-the-badge)
 ![build](https://img.shields.io/github/actions/workflow/status/dashlog/core/node.js.yml?style=for-the-badge)
