@@ -32,13 +32,9 @@ describe("execute()", async() => {
   });
 
   it("should add plugin", async() => {
-    mockPool.intercept({ path: "/projects/github.com/NodeSecure/ossf-scorecard-sdk" }).reply(200, { foo: "bar" }, {
-      headers: { "Content-Type": "application/json" }
-    }).times(1);
-
     const repo: any = { name: "cli", plugins: {}, package_name: "@nodesecure/cli" };
 
     await execute("NodeSecure", repo);
-    assert.equal(repo.plugins.nodesecure.foo, "bar");
+    assert.deepEqual(repo.plugins.nodesecure.uniqueLicenseIds, ["MIT"]);
   });
 });
