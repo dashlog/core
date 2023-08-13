@@ -8,7 +8,7 @@
   "scripts": {
     "build": "rimraf ./dist && tsc",
     "prepublishOnly": "npm run build",
-    "test": "node --no-warnings --loader tsx --test test/*.spec.ts",
+    "test": "glob -c \"tsx --test\" \"./test/**/*.spec.ts\"",
     "coverage": "c8 --all -r html npm test",
     "lint": "eslint src/*.ts test/*.ts"
   },
@@ -30,6 +30,7 @@
     "@nodesecure/eslint-config": "^1.7.0",
     "@types/node": "^20.2.1",
     "c8": "^7.13.0",
+    "glob": "^10.3.3",
     "rimraf": "^5.0.1",
     "tsx": "^3.12.7"
   },
