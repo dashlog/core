@@ -6,7 +6,7 @@ import * as httpie from "@myunisoft/httpie";
 import * as Octokit from "@octokit/types";
 import * as Dashlog from "@dashlog/fetch-github-repositories";
 import { packument } from "@nodesecure/npm-registry-sdk";
-import { PackageJson } from "@npm/types";
+import type { PackageJSON } from "@nodesecure/npm-types";
 
 // Import Internal Dependencies
 import Github from "./github.js";
@@ -103,9 +103,9 @@ export default class Repository {
     };
   }
 
-  async #fetchGithubFile(
+  async #fetchGithubFile<T>(
     fileName = "package.json"
-  ): Promise<any> {
+  ): Promise<T> {
     try {
       const uri = `https://raw.githubusercontent.com/${this.#org.name}/${this.#repository.name}/master/${fileName}`;
 
@@ -119,7 +119,7 @@ export default class Repository {
       }
     }
     catch {
-      return {};
+      return {} as any;
     }
   }
 
@@ -153,7 +153,7 @@ export default class Repository {
       const [metadata, lastCommit, packageJSON] = await Promise.all([
         this.#fetchAdditionalGithubData(),
         this.#fetchLastGithubCommit(),
-        this.#fetchGithubFile("package.json") as Promise<PackageJson & { type?: "module" | "commonjs" }>
+        this.#fetchGithubFile<PackageJSON>("package.json")
       ]);
 
       const { pr, issues } = metadata;
