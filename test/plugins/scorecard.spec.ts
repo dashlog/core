@@ -23,23 +23,34 @@ describe("execute()", async() => {
   });
 
   it("should fetch scorecard", async() => {
-    mockPool.intercept({ path: "/projects/github.com/NodeSecure/ossf-scorecard-sdk" }).reply(200, { foo: "bar" }, {
-      headers: { "Content-Type": "application/json" }
-    }).times(1);
+    mockPool
+      .intercept({
+        path: "/projects/github.com/NodeSecure/ossf-scorecard-sdk"
+      })
+      .reply(200, { foo: "bar" }, {
+        headers: { "Content-Type": "application/json" }
+      })
+      .times(1);
 
-    const repo: any = { name: "ossf-scorecard-sdk", plugins: {} };
+    const repo: any = {
+      name: "ossf-scorecard-sdk",
+      plugins: {}
+    };
 
     await execute("NodeSecure", repo);
-    assert.equal(repo.plugins.scorecard.foo, "bar");
+    assert.strictEqual(repo.plugins.scorecard.foo, "bar");
   });
 
   it("should return null", async() => {
-    mockPool.intercept({ path: "/projects/github.com/NodeSecure/cli" }).reply(404).times(1);
+    mockPool
+      .intercept({ path: "/projects/github.com/NodeSecure/cli" })
+      .reply(404)
+      .times(1);
 
     const repo: any = { name: "cli", plugins: {} };
 
     await execute("NodeSecure", repo);
-    assert.equal(repo.plugins.scorecard, null);
+    assert.strictEqual(repo.plugins.scorecard, null);
   });
 });
 
