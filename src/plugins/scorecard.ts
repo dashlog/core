@@ -12,7 +12,11 @@ export async function execute(
   orgName: string,
   repository: DashlogRepository<ScorecardPlugin>
 ) {
-  const scorecard = await fetchOpenSSFScorecard(orgName, repository.name);
+  const scorecard = await fetchOpenSSFScorecard(
+    orgName,
+    repository.name
+  );
+
   Object.assign(repository.plugins, { scorecard });
 }
 
@@ -21,7 +25,10 @@ async function fetchOpenSSFScorecard(
   repositoryName: string
 ): Promise<scorecard.ScorecardResult | null> {
   try {
-    return await scorecard.result(`${orgName}/${repositoryName}`);
+    return await scorecard.result(`${orgName}/${repositoryName}`, {
+      resolveOnNpmRegistry: false,
+      resolveOnVersionControl: false
+    });
   }
   catch {
     return null;
