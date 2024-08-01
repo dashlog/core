@@ -9,7 +9,7 @@ import { DashlogRepository } from "../services/repository.js";
 const kScannerLock = new Mutex({ concurrency: 5 });
 
 export type NodesecurePlugin = {
-  nodesecure?: scanner.Scanner.VerifyPayload;
+  nodesecure?: scanner.tarball.ScannedPackageResult;
 }
 
 export async function execute(
