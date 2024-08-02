@@ -76,12 +76,14 @@ export default class Repository {
       issue, { headers: this.#org.headers }
     );
 
+    const filteredIssues = issues.filter((row) => !("pull_request" in row));
+
     return {
       name: full_name,
       pr: pulls
         .filter((row) => row.user !== null)
         .map((row) => row.user!.login),
-      issues: issues
+      issues: filteredIssues
         .filter((row) => row.user !== null)
         .map((row) => row.user!.login)
     };
