@@ -11,22 +11,57 @@ describe("getTestFrameworkName()", () => {
   });
 
   it("Should return ava", () => {
-    assert.equal(getTestFrameworkName({ ava: "2.0.0" }), "ava");
+    const packageJson = {
+      devDependencies: {
+        ava: "^2.0.0"
+      }
+    };
+    assert.equal(getTestFrameworkName(packageJson), "ava");
   });
 
   it("Should return jest", () => {
-    assert.equal(getTestFrameworkName({ jest: "2.0.0" }), "jest");
+    const packageJson = {
+      devDependencies: {
+        jest: "^2.0.0"
+      }
+    };
+    assert.equal(getTestFrameworkName(packageJson), "jest");
   });
 
   it("Should return japa", () => {
-    assert.equal(getTestFrameworkName({ japa: "2.0.0" }), "japa");
+    const packageJson = {
+      devDependencies: {
+        japa: "^2.0.0"
+      }
+    };
+    assert.equal(getTestFrameworkName(packageJson), "japa");
   });
 
   it("Should return tape", () => {
-    assert.equal(getTestFrameworkName({ tape: "2.0.0" }), "tape");
+    const packageJson = {
+      devDependencies: {
+        tape: "^2.0.0"
+      }
+    };
+    assert.equal(getTestFrameworkName(packageJson), "tape");
   });
 
   it("Should return mocha", () => {
-    assert.equal(getTestFrameworkName({ mocha: "2.0.0" }), "mocha");
+    const packageJson = {
+      devDependencies: {
+        mocha: "^2.0.0"
+      }
+    };
+
+    assert.equal(getTestFrameworkName(packageJson), "mocha");
+  });
+
+  it("Should return node:test", () => {
+    const packageJson = {
+      scripts: {
+        test: "node --test"
+      }
+    };
+    assert.equal(getTestFrameworkName(packageJson), "node:test");
   });
 });

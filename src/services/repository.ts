@@ -176,7 +176,7 @@ export default class Repository {
         license: (this.#repository.license || {}).name || "N/A",
         fork: this.#repository.fork,
         fork_count: this.#repository.forks_count,
-        test_framework: getTestFrameworkName(devDependencies),
+        test_framework: getTestFrameworkName(packageJSON),
         coverage_lib: getCoverageLib(devDependencies),
         size: this.#repository.size,
         stars: this.#repository.stargazers_count,
