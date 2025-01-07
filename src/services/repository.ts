@@ -90,11 +90,11 @@ export default class Repository {
   }
 
   async #fetchLastGithubCommit() {
-    // eslint-disable-next-line max-len
-    const uri = `${this.#repository.commits_url.slice(0, this.#repository.commits_url.length - kCommitUrlPostfixLen)}?per_page=${kMaxCommitFetch}`;
+    const url = new URL(this.#repository.commits_url.slice(0, this.#repository.commits_url.length - kCommitUrlPostfixLen));
+    url.searchParams.set("per_page", kMaxCommitFetch.toString());
 
     const { data: commits } = await httpie.get<Octokit.Endpoints["GET /repos/{owner}/{repo}/commits"]["response"]["data"]>(
-      uri, { headers: this.#org.headers }
+      url, { headers: this.#org.headers }
     );
     this.#commits = commits;
     const lastCommit = commits[0];
