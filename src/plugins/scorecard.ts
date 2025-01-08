@@ -6,7 +6,7 @@ import { DashlogRepository } from "../services/repository.js";
 
 export type ScorecardPlugin = {
   scorecard?: scorecard.ScorecardResult | null;
-}
+};
 
 export async function execute(
   orgName: string,

@@ -53,5 +53,3 @@ describe("execute()", async() => {
     assert.strictEqual(repo.plugins.scorecard, null);
   });
 });
-
-

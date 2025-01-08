@@ -12,7 +12,7 @@ export type DashlogPlugins = keyof typeof plugins;
 export type DashlogOrganization<T extends object> = {
   logo: string;
   projects: DashlogRepository<T>[];
-}
+};
 
 export interface IFetchOrgMetadataOptions<Plugins extends DashlogPlugins> {
   plugins: Plugins[];

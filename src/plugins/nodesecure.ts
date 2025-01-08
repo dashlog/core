@@ -10,10 +10,10 @@ const kScannerLock = new Mutex({ concurrency: 5 });
 
 export type NodesecurePlugin = {
   nodesecure?: scanner.tarball.ScannedPackageResult;
-}
+};
 
 export async function execute(
-  orgName: string,
+  _orgName: string,
   repository: DashlogRepository<NodesecurePlugin>
 ) {
   if (repository.package_name === null) {
