@@ -41,7 +41,7 @@
     "@nodesecure/npm-types": "^1.1.0",
     "@nodesecure/ossf-scorecard-sdk": "^3.2.1",
     "@nodesecure/scanner": "^6.0.1",
-    "@octokit/types": "^13.5.0",
+    "@octokit/types": "^14.0.0",
     "@openally/mutex": "^1.0.0"
   }
 }
