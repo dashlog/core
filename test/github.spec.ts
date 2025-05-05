@@ -3,10 +3,11 @@ import { test, after, describe, it } from "node:test";
 import assert from "node:assert";
 import fs from "node:fs";
 
-// Import Internal Dependencies
-import Github from "../src/services/github";
-
+// Import Third-party Dependencies
 import { MockAgent, setGlobalDispatcher } from "undici";
+
+// Import Internal Dependencies
+import Github from "../src/services/github.js";
 
 const kMaxCommitFetch = 60;
 
