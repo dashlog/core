@@ -3,7 +3,7 @@ import path from "node:path";
 
 // Import Third-party Dependencies
 import * as httpie from "@myunisoft/httpie";
-import * as Octokit from "@octokit/types";
+import type { Endpoints } from "@octokit/types";
 import * as Dashlog from "@dashlog/fetch-github-repositories";
 import { packument } from "@nodesecure/npm-registry-sdk";
 import type { PackageJSON } from "@nodesecure/npm-types";
@@ -54,7 +54,7 @@ export interface DashlogRepository<PluginsGeneric extends object = any> {
 export default class Repository {
   #org: Github;
   #repository: Dashlog.Repository;
-  #commits: Octokit.Endpoints["GET /repos/{owner}/{repo}/commits"]["response"]["data"];
+  #commits: Endpoints["GET /repos/{owner}/{repo}/commits"]["response"]["data"];
 
   constructor(org: Github, repository: Dashlog.Repository) {
     this.#org = org;
@@ -69,10 +69,10 @@ export default class Repository {
     const pull = pulls_url.slice(0, pulls_url.length - kPullUrlPostfixLen);
     const issue = issues_url.slice(0, issues_url.length - kPullUrlPostfixLen);
 
-    const { data: pulls } = await httpie.get<Octokit.Endpoints["GET /repos/{owner}/{repo}/pulls"]["response"]["data"]>(
+    const { data: pulls } = await httpie.get<Endpoints["GET /repos/{owner}/{repo}/pulls"]["response"]["data"]>(
       pull, { headers: this.#org.headers }
     );
-    const { data: issues } = await httpie.get<Octokit.Endpoints["GET /repos/{owner}/{repo}/issues"]["response"]["data"]>(
+    const { data: issues } = await httpie.get<Endpoints["GET /repos/{owner}/{repo}/issues"]["response"]["data"]>(
       issue, { headers: this.#org.headers }
     );
 
@@ -93,7 +93,7 @@ export default class Repository {
     const url = new URL(this.#repository.commits_url.slice(0, this.#repository.commits_url.length - kCommitUrlPostfixLen));
     url.searchParams.set("per_page", kMaxCommitFetch.toString());
 
-    const { data: commits } = await httpie.get<Octokit.Endpoints["GET /repos/{owner}/{repo}/commits"]["response"]["data"]>(
+    const { data: commits } = await httpie.get<Endpoints["GET /repos/{owner}/{repo}/commits"]["response"]["data"]>(
       url, { headers: this.#org.headers }
     );
     this.#commits = commits;

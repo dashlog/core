@@ -1,6 +1,6 @@
 // Import Third-party Dependencies
 import * as httpie from "@myunisoft/httpie";
-import * as Octokit from "@octokit/types";
+import type { Endpoints } from "@octokit/types";
 import { fetchLazy } from "@dashlog/fetch-github-repositories";
 
 // Import Internal Dependencies
@@ -34,7 +34,7 @@ export default class Github {
   }
 
   async information() {
-    const { data } = await httpie.get<Octokit.Endpoints["GET /orgs/{org}"]["response"]["data"]>(
+    const { data } = await httpie.get<Endpoints["GET /orgs/{org}"]["response"]["data"]>(
       `https://api.github.com/orgs/${this.orgName}`,
       { headers: this.headers }
     );
