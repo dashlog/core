@@ -3,7 +3,7 @@ import * as scanner from "@nodesecure/scanner";
 import { Mutex } from "@openally/mutex";
 
 // Import Internal Dependencies
-import { DashlogRepository } from "../services/repository.js";
+import { type DashlogRepository } from "../services/repository.js";
 
 // CONSTANTS
 const kScannerLock = new Mutex({ concurrency: 5 });

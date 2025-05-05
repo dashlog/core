@@ -4,7 +4,7 @@ import * as Octokit from "@octokit/types";
 import { fetchLazy } from "@dashlog/fetch-github-repositories";
 
 // Import Internal Dependencies
-import GithubRepository, { DashlogRepository } from "./repository.js";
+import GithubRepository, { type DashlogRepository } from "./repository.js";
 
 export default class Github {
   public orgName: string;
@@ -60,6 +60,6 @@ export default class Github {
 
     return results
       .filter((promise) => promise.status === "fulfilled" && promise.value !== null)
-      .map((promise: PromiseFulfilledResult<DashlogRepository>) => promise.value);
+      .map((promise) => (promise as PromiseFulfilledResult<DashlogRepository>).value);
   }
 }

@@ -1,7 +1,7 @@
 // Import Internal Dependencies
 import Github from "./services/github.js";
 import * as plugins from "./plugins/index.js";
-import { DashlogRepository } from "./services/repository.js";
+import { type DashlogRepository } from "./services/repository.js";
 
 export type DashlogAllPlugins =
   plugins.nodesecure.NodesecurePlugin &
@@ -39,4 +39,4 @@ export async function fetchOrgMetadata<T extends DashlogPlugins>(
   };
 }
 
-export { DashlogRepository };
+export { type DashlogRepository };

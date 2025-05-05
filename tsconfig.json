@@ -1,19 +1,8 @@
 {
+  "extends": "@openally/config.typescript/esm",
   "compilerOptions": {
-    "declaration": true,
-    "strictNullChecks": true,
-    "skipLibCheck": true,
-    "target": "ES2020",
     "outDir": "dist",
-    "module": "ES2020",
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "skipDefaultLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "sourceMap": true,
-    "rootDir": "./src",
-    "types": ["node"]
+    "rootDir": "./src"
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]

@@ -2,7 +2,7 @@
 import * as scorecard from "@nodesecure/ossf-scorecard-sdk";
 
 // Import Internal Dependencies
-import { DashlogRepository } from "../services/repository.js";
+import { type DashlogRepository } from "../services/repository.js";
 
 export type ScorecardPlugin = {
   scorecard?: scorecard.ScorecardResult | null;
