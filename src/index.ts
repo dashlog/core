@@ -14,13 +14,13 @@ export type DashlogOrganization<T extends object> = {
   projects: DashlogRepository<T>[];
 };
 
-export interface IFetchOrgMetadataOptions<Plugins extends DashlogPlugins> {
+export interface FetchOrgMetadataOptions<Plugins extends DashlogPlugins> {
   plugins: Plugins[];
 }
 
 export async function fetchOrgMetadata<T extends DashlogPlugins>(
   orgName: string,
-  options: IFetchOrgMetadataOptions<T> = { plugins: [] }
+  options: FetchOrgMetadataOptions<T> = { plugins: [] }
 ): Promise<DashlogOrganization<Pick<DashlogAllPlugins, T>>> {
   const githubRepository = new Github(orgName);
 
