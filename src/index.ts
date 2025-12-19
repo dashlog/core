@@ -1,7 +1,7 @@
 // Import Internal Dependencies
-import Github from "./services/github.js";
-import * as plugins from "./plugins/index.js";
-import { type DashlogRepository } from "./services/repository.js";
+import Github from "./services/github.ts";
+import * as plugins from "./plugins/index.ts";
+import { type DashlogRepository } from "./services/repository.ts";
 
 export type DashlogAllPlugins =
   plugins.nodesecure.NodesecurePlugin &
@@ -14,13 +14,13 @@ export type DashlogOrganization<T extends object> = {
   projects: DashlogRepository<T>[];
 };
 
-export interface IFetchOrgMetadataOptions<Plugins extends DashlogPlugins> {
+export interface FetchOrgMetadataOptions<Plugins extends DashlogPlugins> {
   plugins: Plugins[];
 }
 
 export async function fetchOrgMetadata<T extends DashlogPlugins>(
   orgName: string,
-  options: IFetchOrgMetadataOptions<T> = { plugins: [] }
+  options: FetchOrgMetadataOptions<T> = { plugins: [] }
 ): Promise<DashlogOrganization<Pick<DashlogAllPlugins, T>>> {
   const githubRepository = new Github(orgName);
 

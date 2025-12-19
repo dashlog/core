@@ -1,10 +1,10 @@
 // Import Third-party Dependencies
-import * as httpie from "@myunisoft/httpie";
+import * as httpie from "@openally/httpie";
 import type { Endpoints } from "@octokit/types";
 import { fetchLazy } from "@dashlog/fetch-github-repositories";
 
 // Import Internal Dependencies
-import GithubRepository, { type DashlogRepository } from "./repository.js";
+import GithubRepository, { type DashlogRepository } from "./repository.ts";
 
 export default class Github {
   public orgName: string;

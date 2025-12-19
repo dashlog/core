@@ -3,7 +3,7 @@ import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 
 // Import Internal Dependencies
-import { getTestFrameworkName } from "../src/utils";
+import { getTestFrameworkName } from "../src/utils/index.ts";
 
 describe("getTestFrameworkName()", () => {
   it("Should return N/A", () => {
