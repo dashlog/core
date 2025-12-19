@@ -3,7 +3,7 @@ import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 
 // Import Internal Dependencies
-import { getCoverageLib } from "../src/utils";
+import { getCoverageLib } from "../src/utils/index.ts";
 
 describe("getCoverageLib()", () => {
   it("Should return N/A", () => {

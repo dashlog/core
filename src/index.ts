@@ -1,7 +1,7 @@
 // Import Internal Dependencies
-import Github from "./services/github.js";
-import * as plugins from "./plugins/index.js";
-import { type DashlogRepository } from "./services/repository.js";
+import Github from "./services/github.ts";
+import * as plugins from "./plugins/index.ts";
+import { type DashlogRepository } from "./services/repository.ts";
 
 export type DashlogAllPlugins =
   plugins.nodesecure.NodesecurePlugin &

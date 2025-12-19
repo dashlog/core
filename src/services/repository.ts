@@ -2,15 +2,15 @@
 import path from "node:path";
 
 // Import Third-party Dependencies
-import * as httpie from "@myunisoft/httpie";
+import * as httpie from "@openally/httpie";
 import type { Endpoints } from "@octokit/types";
 import * as Dashlog from "@dashlog/fetch-github-repositories";
 import { packument } from "@nodesecure/npm-registry-sdk";
 import type { PackageJSON } from "@nodesecure/npm-types";
 
 // Import Internal Dependencies
-import Github from "./github.js";
-import { getCoverageLib, getTestFrameworkName } from "../utils/index.js";
+import Github from "./github.ts";
+import { getCoverageLib, getTestFrameworkName } from "../utils/index.ts";
 
 // CONSTANTS
 const kMaxCommitFetch = 60;

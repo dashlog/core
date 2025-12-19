@@ -6,7 +6,7 @@ import assert from "node:assert";
 import { MockAgent, setGlobalDispatcher } from "undici";
 
 // Import Internal Dependencies
-import { execute } from "../../src/plugins/scorecard";
+import { execute } from "../../src/plugins/scorecard.ts";
 
 const kApiUrl = "https://api.securityscorecards.dev";
 

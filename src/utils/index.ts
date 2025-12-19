@@ -1,2 +1,2 @@
-export * from "./getCoverageLib.js";
-export * from "./getTestFrameworkName.js";
+export * from "./getCoverageLib.ts";
+export * from "./getTestFrameworkName.ts";

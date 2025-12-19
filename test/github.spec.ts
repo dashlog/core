@@ -5,14 +5,17 @@ import fs from "node:fs";
 
 // Import Third-party Dependencies
 import { MockAgent, setGlobalDispatcher } from "undici";
+import type { Repository } from "@dashlog/fetch-github-repositories";
 
 // Import Internal Dependencies
-import Github from "../src/services/github.js";
+import Github from "../src/services/github.ts";
 
 const kMaxCommitFetch = 60;
 
 const nsGithubOrg = JSON.parse(fs.readFileSync("./test/fixtures/nodesecure-github-org.json", "utf-8"));
-const repositories = JSON.parse(fs.readFileSync("./test/fixtures/repos.json", "utf-8"));
+const repositories = JSON.parse(
+  fs.readFileSync("./test/fixtures/repos.json", "utf-8")
+) as Repository[];
 const issues = JSON.parse(fs.readFileSync("./test/fixtures/issues.json", "utf-8"));
 const pulls = JSON.parse(fs.readFileSync("./test/fixtures/pulls.json", "utf-8"));
 const commits = JSON.parse(fs.readFileSync("./test/fixtures/commits.json", "utf-8"));
