@@ -42,9 +42,9 @@
     "@nodesecure/npm-registry-sdk": "^4.4.0",
     "@nodesecure/npm-types": "^1.3.0",
     "@nodesecure/ossf-scorecard-sdk": "^3.2.1",
-    "@nodesecure/scanner": "^8.2.0",
+    "@nodesecure/scanner": "^10.4.0",
     "@octokit/types": "^16.0.0",
-    "@openally/httpie": "1.0.0",
+    "@openally/httpie": "1.1.0",
     "@openally/mutex": "^2.0.0"
   }
 }
